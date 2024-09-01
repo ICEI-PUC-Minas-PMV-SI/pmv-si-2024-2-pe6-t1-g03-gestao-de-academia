@@ -1,4 +1,5 @@
 # Introdução
+Jack
 A gestão eficiente é fundamental para o sucesso de qualquer empreendimento, e no caso das academias, isso não é diferente. À medida que o setor fitness continua a crescer, uma boa administração torna-se essencial para expandir e diversificar o negócio. O artigo intitulado "The Impact of COVID-19 on Physical Activity and Fitness Trends: A Review of Current Evidence" publicado na revista "Frontiers in Public Health" aborda o aumento da demanda por práticas de vida saudável após a pandemia de COVID-19, academias de todos os portes enfrentam o desafio de lidar com um volume crescente de dados e processos administrativos. Se não forem gerenciados de forma adequada, esses desafios podem comprometer tanto o funcionamento quanto a lucratividade da academia. Nesse cenário, a tecnologia se apresenta como uma aliada indispensável, proporcionando ferramentas que facilitam a gestão do negócio e melhoram a experiência tanto dos gestores quanto dos alunos.
 
 ## Problema
