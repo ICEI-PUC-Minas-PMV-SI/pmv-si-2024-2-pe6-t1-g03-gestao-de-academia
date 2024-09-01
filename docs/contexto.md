@@ -8,14 +8,14 @@ O problema central abordado por este projeto é a ineficiência na gestão das i
 Desenvolver uma solução web e mobile para a gestão de alunos e controle de pagamentos de uma Academia.
 
 ## Justificativa
-Este projeto foi motivado pela crescente necessidade de soluções eficientes para a gestão de academias, um setor em constante crescimento, onde muitos processos ainda são manuais. Ao desenvolver uma plataforma web com a funcionalidade de cadastro do aluno da academia, juntamente dados para que seja possível contacta-lo , criação de planos para academiae definição do status de pagamento dos alunos, juntamente com uma aplicação mobile terá a funcionalidade de consulta dos alunos bem como alteração do status de pagamento, e alteração do plano do aluno, desta forma buscamos atender às demandas dos gestores.
+Este projeto foi motivado pela crescente necessidade de soluções eficientes para a gestão de academias, um setor em constante crescimento, onde muitos processos ainda são manuais. Ao desenvolver uma plataforma web com a funcionalidade de cadastro do aluno da academia, juntamente dados para que seja possível contactá-lo , criação de planos para academia e definição do status de pagamento dos alunos, juntamente com uma aplicação mobile terá a funcionalidade de consulta dos alunos bem como alteração do status de pagamento, e alteração do plano do aluno, desta forma sendo uma extensão da solução web para rápidos ajustes ou consultas, buscamos atender às demandas dos gestores por uma ferramenta que facilite a administração diária, otimize o controle de informações.
 
 ## Público-Alvo
 Com essa solução buscamos atingir gestão de academias engloba principalmente proprietários, gerentes e administradores de academias de pequeno porte, aproximadamente 200 alunos por mês. O objetivo é manter um cadastro atualizado dos alunos da Academia para possíveis comunicações e fazer um controle mensal de pagamentos diminuindo a inadimplência e agilizando um processo que pode ainda ser manual e analógico.
 
 ### Descrição
 A plataforma web terá funcionalidade de cadastro do aluno da academia, com dados para sua identificação, como nome e CPF, além de dados para fazer com que seja possível contacta-lo como telefone e e-mail, criação de planos para academia definindo valor a ser pago e nome do plano e definição do status de pagamento dos alunos entre pendente e pago. 
-Enquanto a solução mobile oferece funcionalidades simplificadas para a gestão da academia, permitindo a consulta do dados dos alunos, a alteração do status de pagamento e plano da academia, bem como alteração de ambas informações. Essa ferramenta atua como uma extensão da plataforma web, proporcionando uma maneira mais acessível no dia a dia realizar ajustes e verificações em tempo real. Com a proposta de atender às necessidades dos gestores, nossa solução visa facilitar a administração diária e otimizar o controle das informações, tornando o processo de gestão mais dinâmico.
+Enquanto a solução mobile oferece funcionalidades simplificadas para a gestão da academia, permitindo a consulta do dados dos alunos, a alteração do status de pagamento e plano da academia, bem como alteração de ambas as informações. Essa ferramenta atua como uma extensão da plataforma web, proporcionando uma maneira mais acessível no dia a dia realizar ajustes e verificações em tempo real. Com a proposta de atender às necessidades dos gestores, nossa solução visa facilitar a administração diária e otimizar o controle das informações, tornando o processo de gestão mais dinâmico.
 
 ### Conhecimentos Prévios
 Os usuários-alvo não necessariamente possuem conhecimentos avançados em tecnologia, a solução deve ser intuitiva e fácil de usar. Podem ter familiaridade com sistemas de gerenciamento tradicionais e ferramentas de escritório, como planilhas, mas a experiência com sistemas específicos para academias pode variar.
@@ -79,10 +79,10 @@ Guilherme é o proprietário de uma academia de porte médio. Ele entrou no ramo
 
 **Desafios:**
 - Assegurar que todas as informações dos clientes estejam atualizadas e acessíveis.
-- Encontrar uma solução de gestão intuitiva que possa se usada facilmente por funcionários novos sem necessidade de treinamento especializado.
+- Encontrar uma solução de gestão intuitiva que possa ser usada facilmente por funcionários novos sem necessidade de treinamento especializado.
 
 **Relação com a Tecnologia:**
-- Guilherme é tecnicamente proficiente mas não tem interesse em lidar pessoalmente com as ferramentas de controle administrativo.
+- Guilherme é tecnicamente proficiente, mas não tem interesse em lidar pessoalmente com as ferramentas de controle administrativo.
 - Tem interesse particular em soluções que ofereçam relatórios detalhados.
 
 **Citação:**
@@ -100,24 +100,21 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Responsável |
-|------|-----------------------------------------|----|
-|RF-001| O sistema deve fazer a gestão das informações de alunos | Rodrigo, Vinícius |
+|ID    | Descrição do Requisito | Responsável |
+|------|------------------------|-------------|
+|RF-001| O sistema deve fazer a gestão das informações dos alunos | Rodrigo, Vinícius |
 |RF-002| O sistema deve fazer a gestão de pagamentos | Fernando, Leandro |
 |RF-003| O sistema deve permitir a atualização e o gerenciamento de planos de treinamento dos alunos | Laryssa, Douglas |
-|RF-004| O sistema deve prover relatórios de gestão | ? |
-
+|RF-004| O sistema deve prover relatórios de gestão | Cada desenvolvedor |
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  | Prioridade |
-|-------|-------------------------|----|
+|ID     | Descrição do Requisito | Prioridade |
+|-------|------------------------|------------|
 |RNF-001| O sistema deve ser responsivo, garantindo que a interface funcione adequadamente em dispositivos móveis e web | ALTA | 
 |RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA |
-|RNF-003| O sistema deve ser escalável para suportar o crescimento da academia, incluindo, no máximo, 200 alunos e novos serviços |  ALTA |
-|RNF-004| O sistema deve garantir a segurança e confidencialidade dos dados dos alunos, incluindo criptografia de dados sensíveis |  BAIXA |
-|RNF-005| O sistema deve suportar integrações com APIs externas para ampliação de funcionalidades no futuro |  ALTA |
-|RNF-006| O sistema deve ser projetado para tratar possíveis falhas, minimizando o impacto na experiência do usuário.|  ALTA |
+|RNF-003| O sistema deve ser escalável para suportar o crescimento da academia, incluindo mais alunos e novos serviços |  ALTA |
+|RNF-004| O sistema deve garantir a segurança e confidencialidade dos dados dos alunos |  BAIXA |
 
 ## Restrições
 
@@ -126,23 +123,45 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
-|02| A solução deve ser desenvolvida utilizando as tecnologias especificadas (C#, .NET, React, MySQL) |
+|02| A aplicação deverá possuir acesso via WEB e Mobile |
 
 # Catálogo de Serviços
 
-- Gestão de Alunos: Permite o registro e a edição dos dados dos alunos.
-- Gestão de Pagamentos: Automatiza o acompanhamento de pagamentos, permitindo a visualização do status de quitação das mensalidades e a geração de relatórios de inadimplência.
-- Integração com Dispositivos Móveis: Oferece acesso às funcionalidades principais através de um aplicativo móvel, permitindo que os gestores utilizem a plataforma de qualquer lugar.
-- Proteção de Privacidade de Dados: O sistema está em conformidade com a Lei Geral de Proteção de Dados, incluindo controle de acesso e privacidade por padrão (Privacy by Default).
+- **Gestão de Alunos**
+	- Registro de Alunos:
+		- Permite o cadastro detalhado de novos alunos, incluindo informações (nome, idade, endereço), detalhes de contato (telefone, e-mail) 
+	- Edição de Informações:
+		- Facilita a atualização contínua dos dados dos alunos, garantindo que as informações estejam sempre precisas e atualizadas
+	- Histórico de Atividades:
+		- Armazena o histórico de frequência dos alunos e registros de presença em aulas
+- **Gestão de Pagamentos**
+	- Monitoramento de Status Financeiro:
+		- Permite a visualização em tempo real do status de pagamento de cada aluno
+	- Relatórios de Inadimplência:
+		- Gera relatórios sobre inadimplências, ajudando a identificar padrões e tomar medidas corretivas. Esses relatórios podem ser filtrados por período, aluno, ou tipo de plano.
+- **Integração com Dispositivos Móveis**
+	- Aplicativo Mobile:
+		- Disponibiliza um aplicativo móvel que replica as principais funcionalidades da plataforma web, permitindo que gestores acessem informações críticas, como cadastros de alunos e status de pagamentos, de qualquer lugar.
+	- Acesso Remoto:
+		Permite a gestão remota de operações da academia, como a consulta de dados financeiros e atualização de informações dos alunos 
+	- Sincronização em Tempo Real:
+		- Garante que qualquer alteração feita via aplicativo móvel seja imediatamente refletida na plataforma web, mantendo a consistência dos dados e facilitando a coordenação entre diferentes dispositivos.
+- **Proteção de Privacidade de Dados**
+	- Conformidade com LGPD:
+		- O sistema está totalmente em conformidade com a Lei Geral de Proteção de Dados (LGPD), garantindo que todos os dados dos alunos sejam coletados, armazenados e processados de acordo com os regulamentos legais.
+	- Privacidade por Padrão (Privacy by Default):
+		- As configurações de privacidade são definidas automaticamente para o nível mais restritivo, protegendo os dados do aluno desde o momento do cadastro sem necessidade de configurações manuais adicionais.
+	- Auditoria e Logs:
+		- Mantém um registro detalhado de todas as operações realizadas no sistema, permitindo auditorias regulares e identificação de atividades suspeitas ou anômalas.
 
 # Arquitetura da Solução
 ![image](https://github.com/user-attachments/assets/6e22a7c1-bdff-45af-8a1b-c12d6d40c0bf)
 
 ## Back End Architecture
 
-Para a solução de back end, optamos pelo ecossistema .NET devido à sua robustez e ampla comunidade de suporte. A arquitetura foi estruturada em camadas, inspirada nos princípios do Clean Architecture, visando promover a clareza e simplicidade mas mantendo uma boa separação de responsabilidades.
+Para a solução de back end, optamos pelo ecossistema .NET devido à sua robustez e ampla comunidade de suporte. A arquitetura foi estruturada em camadas, inspirada nos princípios do Clean Architecture, visando promover a clareza e simplicidade, mas mantendo uma boa separação de responsabilidades.
 
-Em relação ao acesso ao banco de dados, decidimos adotar uma abordagem simplificada. Utilizamos repositórios simples sem o emprego de frameworks específicos para ORM (Object-Relational Mapping). Esta escolha visa diminuir a curva de aprendizado em detrimento de uma manutenabilidade que já não seria alcançada sem uma maior especialização do time.
+Em relação ao acesso ao banco de dados, decidimos adotar uma abordagem simplificada. Utilizamos repositórios simples sem o emprego de frameworks específicos para ORM (Object-Relational Mapping). Esta escolha visa diminuir a curva de aprendizado em detrimento de uma manutenibilidade que já não seria alcançada sem uma maior especialização do time.
 
 ### 1. **Camadas da Arquitetura**
 - **Domain**: 
@@ -161,7 +180,7 @@ Em relação ao acesso ao banco de dados, decidimos adotar uma abordagem simplif
 - Camadas superiores (Domain e Services) são independentes das inferiores (API e Infra).
 - A API depende de Services para processar requisições.
 - Services usa o Domain para lógica de negócio e Infra para operações de suporte.
-- A camada de Infra poderá ter acesso apenas limitado a classes de dominio.
+- A camada de Infra poderá ter acesso apenas limitado a classes de domínio.
 
 ### 3. **Princípios de Design**
 - **Inversão de Dependência**: 
@@ -196,4 +215,4 @@ Em relação ao acesso ao banco de dados, decidimos adotar uma abordagem simplif
 - **IDE de Desenvolvimento:** Visual Studio Code ou outro de preferencia.
 
 ## Hospedagem
-- AWS em um servidor com servico de IIS
+- AWS em um servidor com serviço de IIS
