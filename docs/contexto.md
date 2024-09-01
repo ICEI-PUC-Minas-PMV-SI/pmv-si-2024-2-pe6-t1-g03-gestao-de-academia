@@ -103,7 +103,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID    | Descrição do Requisito  | Responsável |
 |------|-----------------------------------------|----|
 |RF-001| O sistema deve fazer a gestão das informações de alunos | Rodrigo, Vinícius |
-|RF-002| O sistema deve fazer a gestão de pagamentos | Leandro, Fernando |
+|RF-002| O sistema deve fazer a gestão de pagamentos | Fernando, Leandro |
 |RF-003| O sistema deve permitir a atualização e o gerenciamento de planos de treinamento dos alunos | Laryssa, Douglas |
 |RF-004| O sistema deve prover relatórios de gestão | ? |
 
