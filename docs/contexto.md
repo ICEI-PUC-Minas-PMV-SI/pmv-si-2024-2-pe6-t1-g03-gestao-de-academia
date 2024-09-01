@@ -1,15 +1,14 @@
 # Introdução
-Jack
 A gestão eficiente é fundamental para o sucesso de qualquer empreendimento, e no caso das academias, isso não é diferente. À medida que o setor fitness continua a crescer, uma boa administração torna-se essencial para expandir e diversificar o negócio. O artigo intitulado "The Impact of COVID-19 on Physical Activity and Fitness Trends: A Review of Current Evidence" publicado na revista "Frontiers in Public Health" aborda o aumento da demanda por práticas de vida saudável após a pandemia de COVID-19, academias de todos os portes enfrentam o desafio de lidar com um volume crescente de dados e processos administrativos. Se não forem gerenciados de forma adequada, esses desafios podem comprometer tanto o funcionamento quanto a lucratividade da academia. Nesse cenário, a tecnologia se apresenta como uma aliada indispensável, proporcionando ferramentas que facilitam a gestão do negócio e melhoram a experiência tanto dos gestores quanto dos alunos.
 
 ## Problema
-O problema central abordado por este projeto é a ineficiência na gestão das informações dos alunos em academias, atualmente realizada por meio de sistemas pouco integrados. Isso abrange desde o acompanhamento de pagamentos e a atualização de planos de treinamento, até o gerenciamento de informações pessoais e de saúde dos alunos. Estudos indicam que a gestão semiautomática desses dados tende a gerar erros, como falhas no controle de inadimplências e perda de dados importantes, resultando em prejuízos financeiros e insatisfação dos clientes. Tais problemas podem comprometer a lucratividade e a qualidade do serviço prestado pelas academias, reforçando a necessidade de soluções tecnológicas mais eficientes para otimizar a gestão e melhorar a experiência dos usuários (Tchórzewski et al., 2023; Chaurasiya et al., 2024; Booking Ninjas, 2024)​
+O problema central abordado por este projeto é a ineficiência na gestão das informações dos alunos em academias, atualmente realizada por meio de sistemas pouco integrados. Isso abrange desde o acompanhamento de pagamentos e a atualização de planos de treinamento, até o gerenciamento de informações dos alunos. Estudos indicam que a gestão semiautomática desses dados tende a gerar erros, como falhas no controle de inadimplências e perda de dados importantes, resultando em prejuízos financeiros e insatisfação dos clientes. Tais problemas podem comprometer a lucratividade e a qualidade do serviço prestado pelas academias, reforçando a necessidade de soluções tecnológicas mais eficientes para otimizar a gestão e melhorar a experiência dos usuários (Tchórzewski et al., 2023; Chaurasiya et al., 2024; Booking Ninjas, 2024)​
 
 ## Objetivos
 Desenvolver uma solução web e mobile para a gestão de alunos e controle de pagamentos de uma Academia.
 
 ## Justificativa
-Este projeto foi motivado pela crescente necessidade de soluções eficientes para a gestão de academias, um setor em constante crescimento, onde muitos processos ainda são manuais. Ao desenvolver uma plataforma web com a funcionalidade de cadastro do aluno da academia, juntamente dados para que seja possível contacta-lo , criação de planos para academiae definição do status de pagamento dos alunos, juntamente com uma aplicação mobile terá a funcionalidade de consulta dos alunos bem como alteração do status de pagamento, e alteração do plano do aluno, desta forma sendo uma extensão da solução web para rápidos ajustes ou consultas, buscamos atender às demandas dos gestores por uma ferramenta que facilite a administração diária, otimize o controle de informações.
+Este projeto foi motivado pela crescente necessidade de soluções eficientes para a gestão de academias, um setor em constante crescimento, onde muitos processos ainda são manuais. Ao desenvolver uma plataforma web com a funcionalidade de cadastro do aluno da academia, juntamente dados para que seja possível contacta-lo , criação de planos para academiae definição do status de pagamento dos alunos, juntamente com uma aplicação mobile terá a funcionalidade de consulta dos alunos bem como alteração do status de pagamento, e alteração do plano do aluno, desta forma buscamos atender às demandas dos gestores.
 
 ## Público-Alvo
 Com essa solução buscamos atingir gestão de academias engloba principalmente proprietários, gerentes e administradores de academias de pequeno porte, aproximadamente 200 alunos por mês. O objetivo é manter um cadastro atualizado dos alunos da Academia para possíveis comunicações e fazer um controle mensal de pagamentos diminuindo a inadimplência e agilizando um processo que pode ainda ser manual e analógico.
@@ -101,22 +100,22 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
+|ID    | Descrição do Requisito  | Responsável |
 |------|-----------------------------------------|----|
-|RF-001| O sistema deve fazer a gestão das  informações pessoais de alunos | ALTA |
-|RF-002| O sistema deve fazer a gestão de pagamentos | ALTA |
-|RF-003| O sistema deve oferecer uma interface de consulta para dispositivos móveis, permitindo edição | ALTA |
-|RF-004| O sistema deve permitir o acesso e consulta a informações dos alunos a partir de qualquer dispositivo | ALTA |
-|RF-005| Emitir relatório referente aos status de pagamento dos alunos   | BAIXA |
+|RF-001| O sistema deve fazer a gestão das  informações de alunos | Rodrigo, Vinícius |
+|RF-002| O sistema deve fazer a gestão de pagamentos | Leandro, Fernando |
+|RF-003| O sistema deve oferecer uma interface de consulta para dispositivos móveis, permitindo edição | Douglas, Lary |
+|RF-004| O sistema deve permitir o acesso e consulta a informações dos alunos a partir de qualquer dispositivo | ? |
+|RF-005| Emitir relatório referente aos status de pagamento dos alunos | ? |
 
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
+|ID     | Descrição do Requisito  | Prioridade |
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser responsivo, garantindo que a interface funcione adequadamente em dispositivos móveis e web | ALTA | 
 |RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA |
-|RNF-003| O sistema deve ser escalável para suportar o crescimento da academia, incluindo mais alunos e novos serviços |  ALTA |
+|RNF-003| O sistema deve ser escalável para suportar o crescimento da academia, incluindo, no máximo, 200 alunos e novos serviços |  ALTA |
 |RNF-004| O sistema deve garantir a segurança e confidencialidade dos dados dos alunos, incluindo criptografia de dados sensíveis |  BAIXA |
 |RNF-005| O sistema deve suportar integrações com APIs externas para ampliação de funcionalidades no futuro |  ALTA |
 |RNF-006| O sistema deve ser projetado para tratar possíveis falhas, minimizando o impacto na experiência do usuário.|  ALTA |
@@ -132,7 +131,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Catálogo de Serviços
 
-- Gestão de Alunos: Permite o registro e a edição das informações pessoais, de contato e de saúde dos alunos.
+- Gestão de Alunos: Permite o registro e a edição dos dados dos alunos.
 - Gestão de Pagamentos: Automatiza o acompanhamento de pagamentos, permitindo a visualização do status de quitação das mensalidades e a geração de relatórios de inadimplência.
 - Integração com Dispositivos Móveis: Oferece acesso às funcionalidades principais através de um aplicativo móvel, permitindo que os gestores utilizem a plataforma de qualquer lugar.
 - Proteção de Privacidade de Dados: O sistema está em conformidade com a Lei Geral de Proteção de Dados, incluindo controle de acesso e privacidade por padrão (Privacy by Default).
