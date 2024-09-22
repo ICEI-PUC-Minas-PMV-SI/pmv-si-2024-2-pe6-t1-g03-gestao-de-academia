@@ -50,60 +50,54 @@ Existem muitas tecnologias diferentes que podem ser usadas para desenvolver APIs
 [Liste os principais endpoints da API, incluindo as operações disponíveis, os parâmetros esperados e as respostas retornadas.]
 
 Students API
-1. Get All Students
-Method: GET
-URL: /Students
-Description: Retrieves a list of all students.
-Parameters: None
-Response
-Success (200 OK)
+# API de Estudantes
 
-json
-Copiar código
-[
-  {
-    "id": 5,
-    "name": "Carlos D.",
-    "email": "carlos@alunodevfitness.com",
-    "cpf": "12345678901",
-    "phone": "12345678901"
-  },
-  {
-    "id": 6,
-    "name": "Gabriella F.",
-    "email": "gabriella@alunodevfitness.com",
-    "cpf": "09876543210",
-    "phone": "09876543210"
-  },
-  {
-    "id": 8,
-    "name": "viniD.",
-    "email": "carjhjlos@alunjhjodevfitness.com",
-    "cpf": "12345786789",
-    "phone": "12378456789"
-  }
-]
-Error (4XX, 5XX)
+Esta documentação cobre os endpoints disponíveis para gerenciar estudantes na aplicação de gestão acadêmica.
 
-json
-Copiar código
+## Endpoints
+
+### GET /Students
+
+Retorna uma lista de todos os estudantes.
+
+- **URL**: `/Students`
+- **Método**: `GET`
+- **Auth requerida**: Sim
+- **Permissões requeridas**: Nenhuma
+
+#### Respostas
+
+- **200 OK**
+
+  Retorna uma lista de estudantes. Exemplo:
+```
 {
-  "message": "Error",
-  "error": {
-    // Error details
-  }
-}
-2. Get Student by ID
-Method: GET
-URL: /Students/{id}
-Description: Retrieves a specific student by their ID.
-Parameters:
-id (path parameter): The ID of the student.
-Response
-Success (200 OK)
+  "id": 5,
+  "name": "Carlos D.",
+  "email": "carlos@alunodevfitness.com",
+  "cpf": "12345678901",
+  "phone": "12345678901"
+},
+```
 
-json
-Copiar código
+### GET /Students/{id}
+Retorna os detalhes de um estudante específico.
+
+- **URL**: `/Students/{id}`
+- **Método**: `GET`
+- **Auth requerida**: Sim
+- **Permissões requeridas**: Nenhuma
+
+#### Parâmetros
+
+- **id** (int) - ID do estudante a ser consultado
+
+#### Respostas
+
+- **200 OK**
+
+Retorna os detalhes do estudante. Exemplo:
+```
 {
   "id": 8,
   "name": "viniD.",
@@ -111,110 +105,89 @@ Copiar código
   "cpf": "12345786789",
   "phone": "12378456789"
 }
-Error (404 Not Found)
+```
+**404 Not Found**
 
-json
-Copiar código
+```
 {
-  "message": "Aluno não encontrado."
+  "type": "https://tools.ietf.org/html/rfc9110#section-15.5.5",
+  "title": "Not Found",
+  "status": 404,
+  "traceId": "00-76a44a328f9e78cef4a76d32c9854908-cb3a8e5a3460d864-00"
 }
-3. Create a New Student
-Method: POST
+```
 
-URL: /Students
+### POST /Students
 
-Description: Creates a new student record.
+Cria um novo estudante.
 
-Request Body:
+- **URL**: `/Students`
+- **Método**: `POST`
+- **Auth requerida**: Sim
+- **Permissões requeridas**: Nenhuma
 
-json
-Copiar código
+#### Corpo da Requisição
+
+- **Content-Type**: `application/json`
+- **Body**:
+```
 {
-  "name": "string",
-  "email": "string",
-  "cpf": "string",
-  "phone": "string"
+  "id": 1,
+  "name": "novo",
+  "email": "email@dominio.com",
+  "cpf": "cpfvalido",
+  "phone": "telefonevalido"
 }
-Response
-Success (201 Created)
+```
 
-json
-Copiar código
+#### Respostas
+
+- **201 Created**
+```
 {
-  "id": [generated ID],
-  "name": "string",
-  "email": "string",
-  "cpf": "string",
-  "phone": "string"
+  "id": 1,
+  "name": "novo",
+  "email": "email@dominio.com",
+  "cpf": "cpfvalido",
+  "phone": "telefonevalido"
 }
-Error (400 Bad Request)
-
-json
-Copiar código
+```
+- **400 Bad Request**
+```json
 {
-  "message": "Invalid data",
+  "type": "https://tools.ietf.org/html/rfc9110#section-15.5.1",
+  "title": "One or more validation errors occurred.",
+  "status": 400,
   "errors": {
-    // Validation errors
-  }
+    "students": [
+      "The students field is required."
+    ],
+    "$.id": [
+      "'a' is an invalid start of a value. Path: $.id | LineNumber: 1 | BytePositionInLine: 8."
+    ]
+  },
+  "traceId": "00-17a37247caf3c11bae883b44d6187343-feeb2d3bcb09ac03-00"
 }
-4. Update a Student
-Method: PUT
+```
 
-URL: /Students/{id}
+### PUT /Students/{id}
 
-Description: Updates an existing student record.
+Atualiza os detalhes de um estudante existente.
 
-Parameters:
+- **URL**: `/Students/{id}`
+- **Método**: `PUT`
+- **Auth requerida**: Sim
+- **Permissões requeridas**: Nenhuma
 
-id (path parameter): The ID of the student.
-Request Body:
+#### Parâmetros
 
-json
-Copiar código
-{
-  "id": 8,
-  "name": "viniD.",
-  "email": "s@alunjhjodevfitness.com",
-  "cpf": "12345786789",
-  "phone": "12378456789"
-}
-Response
-Success (204 No Content)
+- **id** (int) - ID do estudante a ser atualizado
 
-No content returned.
-Error (400 Bad Request)
+#### Corpo da Requisição
 
-json
-Copiar código
-{
-  "message": "O ID do aluno não corresponde ao ID fornecido."
-}
-Error (404 Not Found)
-
-json
-Copiar código
-{
-  "message": "Aluno não encontrado."
-}
-5. Delete a Student
-Method: DELETE
-URL: /Students/{id}
-Description: Deletes a student record.
-Parameters:
-id (path parameter): The ID of the student.
-Response
-Success (204 No Content)
-
-No content returned.
-Error (404 Not Found)
-
-json
-Copiar código
-{
-  "message": "Aluno não encontrado."
-}
-
-
+- **Content-Type**: `application/json`
+    
+- **Body**:
 
 ## Considerações de Segurança
 
