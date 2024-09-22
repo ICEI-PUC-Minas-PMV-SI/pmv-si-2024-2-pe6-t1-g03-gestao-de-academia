@@ -70,7 +70,7 @@ Retorna uma lista de todos os estudantes.
 - **200 OK**
 
   Retorna uma lista de estudantes. Exemplo:
-```
+```json
 {
   "id": 5,
   "name": "Carlos D.",
@@ -97,7 +97,7 @@ Retorna os detalhes de um estudante específico.
 - **200 OK**
 
 Retorna os detalhes do estudante. Exemplo:
-```
+```json
 {
   "id": 8,
   "name": "viniD.",
@@ -108,7 +108,7 @@ Retorna os detalhes do estudante. Exemplo:
 ```
 **404 Not Found**
 
-```
+```json
 {
   "type": "https://tools.ietf.org/html/rfc9110#section-15.5.5",
   "title": "Not Found",
@@ -130,7 +130,7 @@ Cria um novo estudante.
 
 - **Content-Type**: `application/json`
 - **Body**:
-```
+```json
 {
   "id": 1,
   "name": "novo",
@@ -143,7 +143,7 @@ Cria um novo estudante.
 #### Respostas
 
 - **201 Created**
-```
+```json
 {
   "id": 1,
   "name": "novo",
