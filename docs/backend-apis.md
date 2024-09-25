@@ -56,11 +56,11 @@ Esta documentação cobre os endpoints disponíveis para gerenciar estudantes na
 
 ## Endpoints
 
-### GET /Students
+### GET /members
 
-Retorna uma lista de todos os estudantes.
+Retorna uma lista de todos os membros da academia.
 
-- **URL**: `/Students`
+- **URL**: `/members`
 - **Método**: `GET`
 - **Auth requerida**: Sim
 - **Permissões requeridas**: Nenhuma
@@ -80,8 +80,8 @@ Retorna uma lista de todos os estudantes.
 },
 ```
 
-### GET /Students/{id}
-Retorna os detalhes de um estudante específico.
+### GET /members/{id}
+Retorna os detalhes de um membro da academia específico.
 
 - **URL**: `/Students/{id}`
 - **Método**: `GET`
@@ -90,13 +90,13 @@ Retorna os detalhes de um estudante específico.
 
 #### Parâmetros
 
-- **id** (int) - ID do estudante a ser consultado
+- **id** (int) - ID do membro a ser consultado
 
 #### Respostas
 
 - **200 OK**
 
-Retorna os detalhes do estudante. Exemplo:
+Retorna os detalhes do membro. Exemplo:
 ```json
 {
   "id": 8,
@@ -117,11 +117,11 @@ Retorna os detalhes do estudante. Exemplo:
 }
 ```
 
-### POST /Students
+### POST /members
 
-Cria um novo estudante.
+Cria um novo membro da academia.
 
-- **URL**: `/Students`
+- **URL**: `/members`
 - **Método**: `POST`
 - **Auth requerida**: Sim
 - **Permissões requeridas**: Nenhuma
@@ -170,11 +170,11 @@ Cria um novo estudante.
 }
 ```
 
-### PUT /Students/{id}
+### PUT /members/{id}
 
 Atualiza os detalhes de um estudante existente.
 
-- **URL**: `/Students/{id}`
+- **URL**: `/members/{id}`
 - **Método**: `PUT`
 - **Auth requerida**: Sim
 - **Permissões requeridas**: Nenhuma
