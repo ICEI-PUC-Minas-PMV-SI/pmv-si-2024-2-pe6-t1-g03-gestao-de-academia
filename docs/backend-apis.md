@@ -1,10 +1,6 @@
 # APIs e Web Services
 
-O planejamento de uma aplicação de APIS Web é uma etapa fundamental para o sucesso do projeto. Ao planejar adequadamente, você pode evitar muitos problemas e garantir que a sua API seja segura, escalável e eficiente.
-
-Aqui estão algumas etapas importantes que devem ser consideradas no planejamento de uma aplicação de APIS Web.
-
-[Inclua uma breve descrição do projeto.]
+Este projeto consiste em uma aplicação de gestão de academia chamada DEV Fitness, desenvolvida utilizando o framework Laravel no back-end e React no front-end. A aplicação oferece funcionalidades para a administração de membros, pagamentos e planos de treino, com autenticação robusta via tokens API (Sanctum) e proteção por autenticação baseada em tokens. O sistema é integrado com uma API que facilita o acesso seguro a dados de membros, pagamentos e planos, garantindo a eficiência na gestão de uma academia e oferecendo uma experiência segura e escalável para os usuários.
 
 ## Objetivos da API
 
