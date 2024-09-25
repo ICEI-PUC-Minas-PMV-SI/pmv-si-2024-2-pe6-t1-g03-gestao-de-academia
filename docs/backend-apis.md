@@ -50,9 +50,9 @@ Existem muitas tecnologias diferentes que podem ser usadas para desenvolver APIs
 [Liste os principais endpoints da API, incluindo as operações disponíveis, os parâmetros esperados e as respostas retornadas.]
 
 Students API
-# API de Estudantes
+# API de Membros
 
-Esta documentação cobre os endpoints disponíveis para gerenciar estudantes na aplicação de gestão acadêmica.
+Esta documentação cobre os endpoints disponíveis para gerenciar os membros na aplicação de gestão acadêmica.
 
 ## Endpoints
 
