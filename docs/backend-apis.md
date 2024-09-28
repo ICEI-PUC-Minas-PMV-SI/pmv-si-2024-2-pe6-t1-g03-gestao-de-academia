@@ -15,6 +15,20 @@ Este projeto consiste em uma aplicação de gestão de academia chamada DEV Fitn
 
 ## Arquitetura
 
+### Principais Componentes:
+
+- Controladores (Controllers): Gerenciam as requisições recebidas, executam a lógica de negócio necessária e enviam as respostas apropriadas.
+
+- Rotas (Routes): Estabelecem os pontos de acesso (endpoints) da API e direcionam as requisições HTTP para os respectivos controladores.
+
+- Modelos (Models): São responsáveis pela representação dos dados e realizam a comunicação direta com o banco de dados, permitindo manipulações como criação, leitura, atualização e exclusão (CRUD).
+
+### Interações entre os Componentes:
+
+- As requisições HTTP enviadas pelos clientes são recebidas pelas rotas, que as encaminham para os controladores adequados.
+
+- Os controladores tratam as requisições, utilizando os modelos para acessar ou modificar dados no banco, e em seguida retornam a resposta apropriada aos clientes, como confirmações, dados ou erros.
+
 [Descrição da arquitetura das APIs, incluindo os componentes e suas interações.]
 
 ## Modelagem da Aplicação
