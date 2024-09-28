@@ -18,7 +18,15 @@ Este projeto consiste em uma aplicação de gestão de academia chamada DEV Fitn
 [Descrição da arquitetura das APIs, incluindo os componentes e suas interações.]
 
 ## Modelagem da Aplicação
-[Descreva a modelagem da aplicação, incluindo a estrutura de dados, diagramas de classes ou entidades, e outras representações visuais relevantes.]
+
+### Entidades Principais:
+
+- Usuários: Armazena informações dos usuários do sistema, como nome, e-mail, senha (criptografada), tipo de usuário (administrador, recepcionista), permissões de acesso e dados de contato.
+- Membros: Armazena os dados dos alunos da academia, incluindo nome, CPF, data de nascimento, telefone, endereço, e status do cadastro.
+- Planos: Armazena informações sobre os diferentes tipos de planos que os membros podem ter, como tipo de plano (silver, gold, master), data de início, data de término, e status do plano (ativo, inativo).
+- Pagamentos: Registra os pagamentos realizados pelos membros, incluindo data do pagamento, status (pago ou não pago), método de pagamento (cartão, boleto), e referência ao membro.
+- Acess_token: Registra as sessões dos usuários logados, garantindo o controle de acesso e permissões dos mesmos.
+    
 ![image](https://github.com/user-attachments/assets/db87fd84-c1df-44b6-aac7-4b082da71481)
 ![image](https://github.com/user-attachments/assets/4384cdd3-ca71-4c6f-bfe1-f2c7ba7bed1f)
 
