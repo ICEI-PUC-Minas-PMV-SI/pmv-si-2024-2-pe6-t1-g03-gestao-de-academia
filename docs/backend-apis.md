@@ -29,11 +29,21 @@ Este projeto consiste em uma aplicação de gestão de academia chamada DEV Fitn
 
 ## Requisitos Funcionais
 
-[Liste os principais requisitos funcionais da aplicação.]
+|ID    | Descrição do Requisito | Responsável |
+|------|------------------------|-------------|
+|RF-001| O sistema deve fazer a gestão das informações dos alunos | Rodrigo, Vinícius |
+|RF-002| O sistema deve fazer a gestão de pagamentos | Fernando, Leandro |
+|RF-003| O sistema deve permitir a atualização e o gerenciamento de planos de treinamento dos alunos | Laryssa, Douglas |
+|RF-004| O sistema deve prover relatórios de gestão | Cada desenvolvedor |
 
 ## Requisitos Não Funcionais
 
-[Liste os principais requisitos não funcionais da aplicação, como desempenho, segurança, escalabilidade, etc.]
+|ID     | Descrição do Requisito | Prioridade |
+|-------|------------------------|------------|
+|RNF-001| O sistema deve ser responsivo, garantindo que a interface funcione adequadamente em dispositivos móveis e web | ALTA | 
+|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA |
+|RNF-003| O sistema deve ser escalável para suportar o crescimento da academia, incluindo mais alunos e novos serviços |  ALTA |
+|RNF-004| O sistema deve garantir a segurança e confidencialidade dos dados dos alunos |  BAIXA |
 
 ## Tecnologias Utilizadas
 
