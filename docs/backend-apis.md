@@ -17,6 +17,8 @@ Este projeto consiste em uma aplicação de gestão de academia chamada DEV Fitn
 
 ### Principais Componentes:
 
+#### Padrão MVC
+
 - Controllers: Gerenciam as requisições recebidas, executam a lógica de negócio necessária e enviam as respostas apropriadas.
 
 - Views: Estabelecem os pontos de acesso (endpoints) da API e direcionam as requisições HTTP para os respectivos controladores.
