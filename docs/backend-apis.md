@@ -70,8 +70,6 @@ Este projeto consiste em uma aplicação de gestão de academia chamada DEV Fitn
 
 - AWS em um servidor com serviço de IIS
 
-[Lista das tecnologias principais que serão utilizadas no projeto.]
-
 ## API Endpoints
 
 [Liste os principais endpoints da API, incluindo as operações disponíveis, os parâmetros esperados e as respostas retornadas.]
