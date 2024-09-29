@@ -113,7 +113,8 @@ Este projeto consiste em uma aplicação de gestão de academia chamada DEV Fitn
 
 [Liste os principais endpoints da API, incluindo as operações disponíveis, os parâmetros esperados e as respostas retornadas.]
 
-Students API
+Members API
+
 # API de Membros
 
 Esta documentação cobre os endpoints disponíveis para gerenciar os membros na aplicação de gestão acadêmica.
