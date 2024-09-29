@@ -316,10 +316,10 @@ Para garantir a segurança da aplicação contra ataques de injeção, como SQL 
 
 Caso de teste: 1
 
-Resumo: Listar Clientes
-Requisito: RF-001
-Prioridade: Alta
-Pré-condição: O usuário deverá estar logado no sistema e com permissões adequadas.
+- Resumo: Listar Clientes
+- Requisito: RF-001
+- Prioridade: Alta
+- Pré-condição: O usuário deverá estar logado no sistema e com permissões adequadas.
 
 Passos:
 
@@ -338,10 +338,10 @@ Exibir a lista de clientes cadastrados com código 200.
 
 ### Caso de teste: 2
 
-Resumo: Detalhar Cliente
-Requisito: RF-002
-Prioridade: Média
-Pré-condição: O usuário deverá estar logado no sistema.
+- Resumo: Detalhar Cliente
+- Requisito: RF-002
+- Prioridade: Média
+- Pré-condição: O usuário deverá estar logado no sistema.
 
 Passos:
 
@@ -360,10 +360,10 @@ Exibir os detalhes do cliente com código 200.
 
 ### Caso de teste: 3
 
-Resumo: Criar Cliente
-Requisito: RF-003
-Prioridade: Alta
-Pré-condição: O usuário deverá estar logado no sistema.
+- Resumo: Criar Cliente
+- Requisito: RF-003
+- Prioridade: Alta
+- Pré-condição: O usuário deverá estar logado no sistema.
 
 Passos:
 
@@ -381,10 +381,10 @@ Exibir mensagem "Operação bem sucedida" com código 201.
 
 ###Caso de teste: 4
 
-Resumo: Atualizar Cliente
-Requisito: RF-004
-Prioridade: Média
-Pré-condição: O usuário deverá estar logado no sistema.
+- Resumo: Atualizar Cliente
+- Requisito: RF-004
+- Prioridade: Média
+- Pré-condição: O usuário deverá estar logado no sistema.
 
 Passos:
 
@@ -405,10 +405,10 @@ Exibir mensagem "Operação bem sucedida" com código 200.
 
 ###Caso de teste: 5
 
-Resumo: Excluir Cliente
-Requisito: RF-005
-Prioridade: Alta
-Pré-condição: O usuário deverá estar logado no sistema.
+- Resumo: Excluir Cliente
+- Requisito: RF-005
+- Prioridade: Alta
+- Pré-condição: O usuário deverá estar logado no sistema.
 
 Passos:
 
@@ -427,10 +427,10 @@ Exibir mensagem "Operação bem sucedida" com código 200.
 
 ### Caso de teste: 6
 
-Resumo: Criar Cliente com Dados Inválidos
-Requisito: RF-006
-Prioridade: Alta
-Pré-condição: O usuário deverá estar logado no sistema.
+- Resumo: Criar Cliente com Dados Inválidos
+- Requisito: RF-006
+- Prioridade: Alta
+- Pré-condição: O usuário deverá estar logado no sistema.
 
 Passos:
 
