@@ -37,8 +37,13 @@ Este projeto consiste em uma aplicação de gestão de academia chamada DEV Fitn
 - Planos: Armazena informações sobre os diferentes tipos de planos que os membros podem ter, como tipo de plano (silver, gold, master), data de início, data de término, e status do plano (ativo, inativo).
 - Pagamentos: Registra os pagamentos realizados pelos membros, incluindo data do pagamento, status (pago ou não pago), método de pagamento (cartão, boleto), e referência ao membro.
 - Acess_token: Registra as sessões dos usuários logados, garantindo o controle de acesso e permissões dos mesmos.
-    
+
+### Funcionamento básico de uma API
+
 ![how-apis-work-2-303162022](https://github.com/user-attachments/assets/18639f79-b4e0-4c73-8ee1-e52775665a59)
+
+### Tabelas do Banco de Dados
+
 ![er_diagram](https://github.com/user-attachments/assets/44edf58b-8553-417f-afe4-073bbbae5fb2)
 
 ## Fluxo de Dados
