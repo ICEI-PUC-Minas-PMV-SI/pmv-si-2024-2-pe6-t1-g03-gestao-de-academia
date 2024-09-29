@@ -49,7 +49,27 @@ Este projeto consiste em uma aplicação de gestão de academia chamada DEV Fitn
 
 ## Fluxo de Dados
 
-[Diagrama ou descrição do fluxo de dados na aplicação.]
+### Cadastro de Usuário (Aluno):
+
+- O aluno acessa a página de cadastro e preenche suas informações pessoais como nome, e-mail, CPF, telefone, e data de nascimento.
+- Após enviar o formulário, as informações são validadas e enviadas para a API, onde são armazenadas na tabela members do banco de dados.
+- Se o cadastro for bem-sucedido, o sistema retorna uma confirmação ao aluno.
+
+### Escolha de Plano:
+
+- O aluno logado acessa a seção de planos e visualiza as opções disponíveis (Silver, Gold, Master).
+- Ao escolher um plano, a API associa o aluno a um plano específico, criando um registro na tabela plans, vinculada ao membro através de member_id.
+- A API registra informações como o tipo de plano, data de início, data de término e o status (ativo/inativo).
+
+### Pagamentos:
+
+- Com o plano escolhido, o aluno pode visualizar suas opções de pagamento.
+- Ao efetuar um pagamento, a API registra esse pagamento na tabela payments, associando o pagamento ao aluno (via member_id).
+- Detalhes do pagamento como método, data, valor e status (pago/não pago) são registrados.
+
+### Consulta de Status:
+
+- O aluno pode consultar o histórico de seus pagamentos e o status do plano atual, acessando informações como a validade do plano e eventuais pagamentos pendentes.
 
 ## Requisitos Funcionais
 
