@@ -121,11 +121,11 @@ Esta documentação cobre os endpoints disponíveis para gerenciar os membros na
 
 ## Endpoints
 
-### GET /members
+### GET /Cliente
 
-Retorna uma lista de todos os membros da academia.
+Retorna uma lista de todos os clientes da academia.
 
-- **URL**: `/members`
+- **URL**: `https://localhost:7260/api/Clientes`
 - **Método**: `GET`
 - **Auth requerida**: Sim
 - **Permissões requeridas**: Nenhuma
@@ -137,18 +137,42 @@ Retorna uma lista de todos os membros da academia.
   Retorna uma lista de estudantes. Exemplo:
 ```json
 {
-  "id": 5,
-  "name": "Carlos D.",
-  "email": "carlos@alunodevfitness.com",
-  "cpf": "12345678901",
-  "phone": "12345678901"
-},
+    "$id": "1",
+    "items": {
+        "$id": "2",
+        "$values": [
+            {
+                "$id": "3",
+                "nome": "DevSenior",
+                "email": "DevSenior@dev.com",
+                "cpf": "12345567899",
+                "telefone": "3199998888",
+                "planos": null,
+                "pagamentos": null,
+                "id": 2
+            },
+            {
+                "$id": "4",
+                "nome": "teste",
+                "email": "teste@teste.com",
+                "cpf": "12345567899",
+                "telefone": "1399999999",
+                "planos": null,
+                "pagamentos": null,
+                "id": 1
+            }
+        ]
+    },
+    "currentPage": 1,
+    "pageSize": 10,
+    "totalCount": 2
+}
 ```
 
-### GET /members/{id}
+### GET /Cliente/{id}
 Retorna os detalhes de um membro da academia específico.
 
-- **URL**: `/Students/{id}`
+- **URL**: `https://localhost:7260/api/Clientes/{id}`
 - **Método**: `GET`
 - **Auth requerida**: Sim
 - **Permissões requeridas**: Nenhuma
@@ -164,29 +188,30 @@ Retorna os detalhes de um membro da academia específico.
 Retorna os detalhes do membro. Exemplo:
 ```json
 {
-  "id": 8,
-  "name": "viniD.",
-  "email": "s@alunjhjodevfitness.com",
-  "cpf": "12345786789",
-  "phone": "12378456789"
+    "$id": "1",
+    "nome": "teste",
+    "email": "teste@teste.com",
+    "cpf": "12345567899",
+    "telefone": "1399999999",
+    "planos": null,
+    "pagamentos": null,
+    "id": 1
 }
 ```
 **404 Not Found**
 
 ```json
 {
-  "type": "https://tools.ietf.org/html/rfc9110#section-15.5.5",
-  "title": "Not Found",
-  "status": 404,
-  "traceId": "00-76a44a328f9e78cef4a76d32c9854908-cb3a8e5a3460d864-00"
+    "$id": "1",
+    "message": "Entidade do tipo Cliente com ID 3 não encontrada."
 }
 ```
 
-### POST /members
+### POST /Cliente
 
 Cria um novo membro da academia.
 
-- **URL**: `/members`
+- **URL**: `https://localhost:7260/api/Clientes/ `
 - **Método**: `POST`
 - **Auth requerida**: Sim
 - **Permissões requeridas**: Nenhuma
@@ -197,11 +222,10 @@ Cria um novo membro da academia.
 - **Body**:
 ```json
 {
-  "id": 1,
-  "name": "novo",
-  "email": "email@dominio.com",
-  "cpf": "cpfvalido",
-  "phone": "telefonevalido"
+  "nome": "Dev5 test",
+  "email": "dev5test@mail.com",
+  "cpf": "55223345677",
+  "telefone": "3198883333"
 }
 ```
 
@@ -210,32 +234,34 @@ Cria um novo membro da academia.
 - **201 Created**
 ```json
 {
-  "id": 1,
-  "name": "novo",
-  "email": "email@dominio.com",
-  "cpf": "cpfvalido",
-  "phone": "telefonevalido"
+    "$id": "1",
+    "nome": "Dev5 test",
+    "email": "dev5test@mail.com",
+    "cpf": "55223345677",
+    "telefone": "3198883333",
+    "planos": null,
+    "pagamentos": null,
+    "id": 4
 }
 ```
 - **400 Bad Request**
 ```json
 {
-  "type": "https://tools.ietf.org/html/rfc9110#section-15.5.1",
-  "title": "One or more validation errors occurred.",
-  "status": 400,
-  "errors": {
-    "students": [
-      "The students field is required."
-    ],
-    "$.id": [
-      "'a' is an invalid start of a value. Path: $.id | LineNumber: 1 | BytePositionInLine: 8."
-    ]
-  },
-  "traceId": "00-17a37247caf3c11bae883b44d6187343-feeb2d3bcb09ac03-00"
+    "$id": "1",
+    "type": "https://tools.ietf.org/html/rfc9110#section-15.5.1",
+    "title": "One or more validation errors occurred.",
+    "status": 400,
+    "errors": {
+        "$id": "2",
+        "Email": [
+            "The Email field is required."
+        ]
+    },
+    "traceId": "00-67dbc2dd59c4d1c35a0c959b091fa4ac-7023ce9e48be9723-00"
 }
 ```
 
-### PUT /members/{id}
+### PUT /Cliente/{id}
 
 Atualiza os detalhes de um estudante existente.
 
@@ -244,15 +270,29 @@ Atualiza os detalhes de um estudante existente.
 - **Auth requerida**: Sim
 - **Permissões requeridas**: Nenhuma
 
-#### Parâmetros
+{
+    "id": 3,
+    "nome": "Dev3 test3",
+    "email": "dev3test@mail.com",
+    "cpf": "11223345677",
+    "telefone": "3198885555"
+}
+- **200 OK**
+Resposta
 
-- **id** (int) - ID do estudante a ser atualizado
+```json
 
-#### Corpo da Requisição
+{
+    "$id": "1",
+    "nome": "Dev3 test3",
+    "email": "dev3test@mail.com",
+    "cpf": "11223345677",
+    "telefone": "3198885555",
+    "planos": null,
+    "pagamentos": null,
+    "id": 3
+}
 
-- **Content-Type**: `application/json`
-    
-- **Body**:
 
 ## Considerações de Segurança
 
