@@ -272,13 +272,15 @@ Para garantir a segurança da aplicação contra ataques de injeção, como SQL 
 
 ## Implantação
 
-[Instruções para implantar a aplicação distribuída em um ambiente de produção.]
+### Requisitos de Hardware:
 
-1. Defina os requisitos de hardware e software necessários para implantar a aplicação em um ambiente de produção.
-2. Escolha uma plataforma de hospedagem adequada, como um provedor de nuvem ou um servidor dedicado.
-3. Configure o ambiente de implantação, incluindo a instalação de dependências e configuração de variáveis de ambiente.
-4. Faça o deploy da aplicação no ambiente escolhido, seguindo as instruções específicas da plataforma de hospedagem.
-5. Realize testes para garantir que a aplicação esteja funcionando corretamente no ambiente de produção.
+- Servidor Web: Ainda não definido.
+- Armazenamento: Banco de dados MySQL
+- Memória RAM: 16GB de RAM para lidar com as operações da aplicação.
+- Processador: Ainda não definido.
+- Requisitos de Software:
+- Sistema Operacional: Sistema Operacional Linux
+- Servidor Web: Servidor IIS
 
 ## Testes
 
