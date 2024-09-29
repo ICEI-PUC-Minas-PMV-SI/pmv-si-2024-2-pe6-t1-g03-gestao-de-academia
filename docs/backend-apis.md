@@ -314,7 +314,7 @@ Para garantir a segurança da aplicação contra ataques de injeção, como SQL 
 
 ## Testes
 
-Caso de teste: 1
+### Caso de teste: 1
 
 - Resumo: Listar Clientes
 - Requisito: RF-001
@@ -379,7 +379,7 @@ Exibir mensagem "Operação bem sucedida" com código 201.
 - Observações: Código 201 para cliente criado, 400 para entrada inválida, 401 se não autenticado.
 - Comentários: Teste deve verificar se o cliente é criado corretamente e se há validação dos dados de entrada.
 
-###Caso de teste: 4
+### Caso de teste: 4
 
 - Resumo: Atualizar Cliente
 - Requisito: RF-004
@@ -403,7 +403,7 @@ Exibir mensagem "Operação bem sucedida" com código 200.
 - Observações: Código 200 para atualização, 404 para cliente não encontrado, 400 para erro de validação, 401 se não autenticado.
 - Comentários: Teste deve garantir que a atualização do cliente funcione e que os erros de validação sejam tratados corretamente.
 
-###Caso de teste: 5
+### Caso de teste: 5
 
 - Resumo: Excluir Cliente
 - Requisito: RF-005
