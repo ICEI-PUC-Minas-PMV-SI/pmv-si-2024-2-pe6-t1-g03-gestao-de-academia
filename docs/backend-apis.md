@@ -38,9 +38,8 @@ Este projeto consiste em uma aplicação de gestão de academia chamada DEV Fitn
 - Pagamentos: Registra os pagamentos realizados pelos membros, incluindo data do pagamento, status (pago ou não pago), método de pagamento (cartão, boleto), e referência ao membro.
 - Acess_token: Registra as sessões dos usuários logados, garantindo o controle de acesso e permissões dos mesmos.
     
-![image](https://github.com/user-attachments/assets/db87fd84-c1df-44b6-aac7-4b082da71481)
+![how-apis-work-2-303162022](https://github.com/user-attachments/assets/18639f79-b4e0-4c73-8ee1-e52775665a59)
 ![image](https://github.com/user-attachments/assets/4384cdd3-ca71-4c6f-bfe1-f2c7ba7bed1f)
-
 
 ## Fluxo de Dados
 
