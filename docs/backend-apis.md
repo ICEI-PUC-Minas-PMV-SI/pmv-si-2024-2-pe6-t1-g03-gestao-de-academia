@@ -28,8 +28,6 @@ Este projeto consiste em uma aplicação de gestão de academia chamada DEV Fitn
 
 - Os controladores tratam as requisições, utilizando os modelos para acessar ou modificar dados no banco, e em seguida retornam a resposta apropriada aos clientes, como confirmações, dados ou erros.
 
-[Descrição da arquitetura das APIs, incluindo os componentes e suas interações.]
-
 ## Modelagem da Aplicação
 
 ### Entidades Principais:
