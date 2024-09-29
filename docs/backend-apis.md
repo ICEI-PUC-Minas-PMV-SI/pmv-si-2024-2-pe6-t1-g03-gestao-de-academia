@@ -314,13 +314,23 @@ Para garantir a segurança da aplicação contra ataques de injeção, como SQL 
 
 ## Testes
 
-[Descreva a estratégia de teste, incluindo os tipos de teste a serem realizados (unitários, integração, carga, etc.) e as ferramentas a serem utilizadas.]
+### Caso de teste: 1
+Resumo: Listar Clientes
+Requisito: RF-001
+Prioridade: Alta
+Pré-condição: O usuário deverá estar logado no sistema e com permissões adequadas.
+Passos:
 
-1. Crie casos de teste para cobrir todos os requisitos funcionais e não funcionais da aplicação.
-2. Implemente testes unitários para testar unidades individuais de código, como funções e classes.
-3. Realize testes de integração para verificar a interação correta entre os componentes da aplicação.
-4. Execute testes de carga para avaliar o desempenho da aplicação sob carga significativa.
-5. Utilize ferramentas de teste adequadas, como frameworks de teste e ferramentas de automação de teste, para agilizar o processo de teste.
+Enviar uma requisição GET para o endpoint /api/Clientes.
+Verificar a resposta do servidor.
+Resultado Esperado:
+
+Exibir a lista de clientes cadastrados com código 200.
+Mensagem "Operação bem sucedida".
+Código 401 se o usuário não estiver autenticado.
+Código 500 para erro no servidor.
+Observações: Código 200 com lista de clientes, 401 se não autenticado.
+Comentários: O teste deve garantir que a lista de clientes seja retornada corretamente.
 
 # Referências
 
