@@ -292,7 +292,7 @@ Resposta
     "pagamentos": null,
     "id": 3
 }
-
+```
 
 ## Considerações de Segurança
 
