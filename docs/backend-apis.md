@@ -451,6 +451,10 @@ Código 400 para erro de validação dos dados.
 - Observações: Código 400 para erro de validação, 401 se não autenticado.
 - Comentários: Teste deve garantir que o sistema retorne erros apropriados para dados inválidos.
 
+# Painel Gerencial
+
+O Dashboard com as informações gerenciais pode ser acessado aqui: https://rodrigozambon.com.br/dashboard/dataview/372d3171812500279ffcf92375722fe4
+
 # Referências
 
 - COULOURIS, George F. et al. Sistemas distribuídos: conceitos e projeto. 5. ed. Porto Alegre: Bookman, 2013.
