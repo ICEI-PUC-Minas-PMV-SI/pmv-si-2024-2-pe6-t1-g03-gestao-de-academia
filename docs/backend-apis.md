@@ -4,14 +4,11 @@ Este projeto consiste em uma aplicação de gestão de academia chamada DEV Fitn
 
 ## Objetivos da API
 
-- Possibilitar a troca de informações e funcionalidades entre as aplicações Web, Mobile com o Banco de Dados para a gestão da academia;
-- Utilização por usuários que podem ser administradores ou recepcionistas;
-- Usuários (recepcionistas, administradores) - permitir cadastro, alteração, exclusão de dados para utilização e acesso aos sistemas;
-- administradores - permitir cadastro, alteração, exclusão, pesquisa e visualização de dados;
-- TODO: continuar e melhorar
-
-[Inclua os objetivos da sua api.]
-
+- Facilitar a integração e troca de informações entre as aplicações Web e Mobile, possibilitando uma gestão eficiente da academia através da comunicação com o banco de dados.
+- Permitir que diferentes tipos de usuários, como administradores e recepcionistas, acessem e utilizem o sistema de forma segura e organizada.
+- Oferecer aos recepcionistas a capacidade de realizar operações de cadastro, edição e exclusão de dados referentes a membros, planos e pagamentos, garantindo a eficiência no atendimento.
+- Proporcionar aos administradores acesso completo ao sistema, permitindo não só o cadastro, alteração e exclusão de dados, mas também a realização de pesquisas e consultas detalhadas para fins de gerenciamento e controle de operações.
+- Garantir a continuidade do aprimoramento das funcionalidades da API para atender às necessidades futuras da gestão da academia.
 
 ## Arquitetura
 
