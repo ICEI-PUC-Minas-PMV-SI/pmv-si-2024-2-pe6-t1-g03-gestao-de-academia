@@ -39,7 +39,7 @@ Este projeto consiste em uma aplicação de gestão de academia chamada DEV Fitn
 - Acess_token: Registra as sessões dos usuários logados, garantindo o controle de acesso e permissões dos mesmos.
     
 ![how-apis-work-2-303162022](https://github.com/user-attachments/assets/18639f79-b4e0-4c73-8ee1-e52775665a59)
-![image](https://github.com/user-attachments/assets/4384cdd3-ca71-4c6f-bfe1-f2c7ba7bed1f)
+![er_diagram](https://github.com/user-attachments/assets/44edf58b-8553-417f-afe4-073bbbae5fb2)
 
 ## Fluxo de Dados
 
