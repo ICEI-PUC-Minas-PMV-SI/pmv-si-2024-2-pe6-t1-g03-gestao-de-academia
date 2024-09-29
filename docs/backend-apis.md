@@ -314,23 +314,138 @@ Para garantir a segurança da aplicação contra ataques de injeção, como SQL 
 
 ## Testes
 
-### Caso de teste: 1
+Caso de teste: 1
+
 Resumo: Listar Clientes
 Requisito: RF-001
 Prioridade: Alta
 Pré-condição: O usuário deverá estar logado no sistema e com permissões adequadas.
+
 Passos:
 
-Enviar uma requisição GET para o endpoint /api/Clientes.
-Verificar a resposta do servidor.
+- Enviar uma requisição GET para o endpoint /api/Clientes.
+- Verificar a resposta do servidor.
+
 Resultado Esperado:
 
 Exibir a lista de clientes cadastrados com código 200.
-Mensagem "Operação bem sucedida".
-Código 401 se o usuário não estiver autenticado.
-Código 500 para erro no servidor.
-Observações: Código 200 com lista de clientes, 401 se não autenticado.
-Comentários: O teste deve garantir que a lista de clientes seja retornada corretamente.
+
+- Mensagem "Operação bem sucedida".
+- Código 401 se o usuário não estiver autenticado.
+- Código 500 para erro no servidor.
+- Observações: Código 200 com lista de clientes, 401 se não autenticado.
+- Comentários: O teste deve garantir que a lista de clientes seja retornada corretamente.
+
+### Caso de teste: 2
+
+Resumo: Detalhar Cliente
+Requisito: RF-002
+Prioridade: Média
+Pré-condição: O usuário deverá estar logado no sistema.
+
+Passos:
+
+- Enviar uma requisição GET para o endpoint /api/Clientes/{id}.
+- Informar o ID de um cliente existente.
+- Verificar a resposta do servidor.
+
+Resultado Esperado:
+
+Exibir os detalhes do cliente com código 200.
+
+- Código 404 se o cliente não for encontrado.
+- Código 401 se o usuário não estiver autenticado.
+- Observações: Código 200 para cliente encontrado, 404 para cliente não encontrado, 401 se não autenticado.
+- Comentários: O teste deve garantir que os detalhes corretos do cliente sejam retornados.
+
+### Caso de teste: 3
+
+Resumo: Criar Cliente
+Requisito: RF-003
+Prioridade: Alta
+Pré-condição: O usuário deverá estar logado no sistema.
+
+Passos:
+
+- Enviar uma requisição POST para o endpoint /api/Clientes/.
+- Preencher os campos nome, email, cpf, e telefone.
+- Verificar a resposta do servidor.
+- Resultado Esperado:
+
+Exibir mensagem "Operação bem sucedida" com código 201.
+
+- Código 400 se houver erro de validação nos dados fornecidos.
+- Código 401 se o usuário não estiver autenticado.
+- Observações: Código 201 para cliente criado, 400 para entrada inválida, 401 se não autenticado.
+- Comentários: Teste deve verificar se o cliente é criado corretamente e se há validação dos dados de entrada.
+
+###Caso de teste: 4
+
+Resumo: Atualizar Cliente
+Requisito: RF-004
+Prioridade: Média
+Pré-condição: O usuário deverá estar logado no sistema.
+
+Passos:
+
+- Enviar uma requisição PUT para o endpoint /api/Clientes/{id}.
+- Informar o ID do cliente a ser atualizado.
+- Preencher os campos com os novos dados do cliente.
+- Verificar a resposta do servidor.
+
+Resultado Esperado:
+
+Exibir mensagem "Operação bem sucedida" com código 200.
+
+- Código 404 se o cliente não for encontrado.
+- Código 400 se houver erro de validação.
+- Código 401 se o usuário não estiver autenticado.
+- Observações: Código 200 para atualização, 404 para cliente não encontrado, 400 para erro de validação, 401 se não autenticado.
+- Comentários: Teste deve garantir que a atualização do cliente funcione e que os erros de validação sejam tratados corretamente.
+
+###Caso de teste: 5
+
+Resumo: Excluir Cliente
+Requisito: RF-005
+Prioridade: Alta
+Pré-condição: O usuário deverá estar logado no sistema.
+
+Passos:
+
+- Enviar uma requisição DELETE para o endpoint /api/Clientes/{id}.
+- Informar o ID do cliente a ser excluído.
+- Verificar a resposta do servidor.
+
+Resultado Esperado:
+
+Exibir mensagem "Operação bem sucedida" com código 200.
+
+- Código 404 se o cliente não for encontrado.
+- Código 401 se o usuário não estiver autenticado.
+- Observações: Código 200 para cliente excluído, 404 para cliente não encontrado, 401 se não autenticado.
+- Comentários: Teste deve garantir que o cliente seja excluído corretamente e que o sistema trate corretamente o caso de cliente inexistente.
+
+### Caso de teste: 6
+
+Resumo: Criar Cliente com Dados Inválidos
+Requisito: RF-006
+Prioridade: Alta
+Pré-condição: O usuário deverá estar logado no sistema.
+
+Passos:
+
+- Enviar uma requisição POST para o endpoint /api/Clientes/.
+- Preencher os campos com dados inválidos (ex.: e-mail inválido).
+- Verificar a resposta do servidor.
+
+Resultado Esperado:
+
+Código 400 para erro de validação dos dados.
+
+- Exibir mensagem de erro adequada informando os campos inválidos.
+- Código 401 se o usuário não estiver autenticado.
+- Observações: Código 400 para erro de validação, 401 se não autenticado.
+- Comentários: Teste deve garantir que o sistema retorne erros apropriados para dados inválidos.
 
 # Referências
 
