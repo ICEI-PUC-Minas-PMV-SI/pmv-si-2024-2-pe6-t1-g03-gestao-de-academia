@@ -1,6 +1,6 @@
 # APIs e Web Services
 
-Este projeto consiste em uma aplicação de gestão de academia chamada DEV Fitness, desenvolvida utilizando o framework Laravel no back-end e React no front-end. A aplicação oferece funcionalidades para a administração de membros, pagamentos e planos de treino, com autenticação robusta via tokens API (Sanctum) e proteção por autenticação baseada em tokens. O sistema é integrado com uma API que facilita o acesso seguro a dados de membros, pagamentos e planos, garantindo a eficiência na gestão de uma academia e oferecendo uma experiência segura e escalável para os usuários.
+Este projeto consiste em uma aplicação de gestão de academia chamada DEV Fitness, desenvolvida utilizando o framework C# no back-end, hospedado no IIS (Internet Information Services), com um front-end dinâmico e interativo. A aplicação oferece funcionalidades para a administração de membros, pagamentos e planos de treino, com autenticação robusta via tokens API (JWT) e proteção por autenticação baseada em tokens. O sistema é integrado com uma API que facilita o acesso seguro a dados de membros, pagamentos e planos, garantindo a eficiência na gestão de uma academia e oferecendo uma experiência segura e escalável para os usuários.
 
 ## Objetivos da API
 
