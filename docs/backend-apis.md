@@ -83,10 +83,9 @@ Este projeto consiste em uma aplicação de gestão de academia chamada DEV Fitn
 
 |ID     | Descrição do Requisito | Prioridade |
 |-------|------------------------|------------|
-|RNF-001| O sistema deve ser responsivo, garantindo que a interface funcione adequadamente em dispositivos móveis e web | ALTA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA |
-|RNF-003| O sistema deve ser escalável para suportar o crescimento da academia, incluindo mais alunos e novos serviços |  ALTA |
-|RNF-004| O sistema deve garantir a segurança e confidencialidade dos dados dos alunos |  BAIXA |
+|RNF-001| Deve processar requisições do usuário em no máximo 3s |  BAIXA |
+|RNF-002| O sistema deve ser escalável para suportar o crescimento da academia, incluindo mais alunos e novos serviços |  ALTA |
+|RNF-003| O sistema deve garantir a segurança e confidencialidade dos dados dos alunos |  BAIXA |
 
 ## Tecnologias Utilizadas
 
