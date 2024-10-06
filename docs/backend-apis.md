@@ -183,6 +183,7 @@ Retorna os detalhes de um membro da academia específico.
 - **200 OK**
 
 Retorna os detalhes do membro. Exemplo:
+
 ```json
 {
     "$id": "1",
@@ -395,6 +396,19 @@ Exibir os detalhes do cliente com código 200.
 - Observações: Código 200 para cliente encontrado, 404 para cliente não encontrado, 401 se não autenticado.
 - Comentários: O teste deve garantir que os detalhes corretos do cliente sejam retornados.
 
+```json
+{
+    "$id": "1",
+    "nome": "teste",
+    "email": "teste@teste.com",
+    "cpf": "12345567899",
+    "telefone": "1399999999",
+    "planos": null,
+    "pagamentos": null,
+    "id": 1
+}
+```
+
 ### Caso de teste: 3
 
 - Resumo: Criar Cliente
@@ -415,6 +429,15 @@ Exibir mensagem "Operação bem sucedida" com código 201.
 - Código 401 se o usuário não estiver autenticado.
 - Observações: Código 201 para cliente criado, 400 para entrada inválida, 401 se não autenticado.
 - Comentários: Teste deve verificar se o cliente é criado corretamente e se há validação dos dados de entrada.
+
+```json
+{
+  "nome": "Dev5 test",
+  "email": "dev5test@mail.com",
+  "cpf": "55223345677",
+  "telefone": "3198883333"
+}
+```
 
 ### Caso de teste: 4
 
@@ -439,6 +462,30 @@ Exibir mensagem "Operação bem sucedida" com código 200.
 - Código 401 se o usuário não estiver autenticado.
 - Observações: Código 200 para atualização, 404 para cliente não encontrado, 400 para erro de validação, 401 se não autenticado.
 - Comentários: Teste deve garantir que a atualização do cliente funcione e que os erros de validação sejam tratados corretamente.
+
+{
+    "id": 3,
+    "nome": "Dev3 test3",
+    "email": "dev3test@mail.com",
+    "cpf": "11223345677",
+    "telefone": "3198885555"
+}
+- **200 OK**
+Resposta
+
+```json
+
+{
+    "$id": "1",
+    "nome": "Dev3 test3",
+    "email": "dev3test@mail.com",
+    "cpf": "11223345677",
+    "telefone": "3198885555",
+    "planos": null,
+    "pagamentos": null,
+    "id": 3
+}
+```
 
 ### Caso de teste: 5
 
