@@ -339,6 +339,40 @@ Exibir a lista de clientes cadastrados com código 200.
 - Observações: Código 200 com lista de clientes, 401 se não autenticado.
 - Comentários: O teste deve garantir que a lista de clientes seja retornada corretamente.
 
+```json
+{
+    "$id": "1",
+    "items": {
+        "$id": "2",
+        "$values": [
+            {
+                "$id": "3",
+                "nome": "DevSenior",
+                "email": "DevSenior@dev.com",
+                "cpf": "12345567899",
+                "telefone": "3199998888",
+                "planos": null,
+                "pagamentos": null,
+                "id": 2
+            },
+            {
+                "$id": "4",
+                "nome": "teste",
+                "email": "teste@teste.com",
+                "cpf": "12345567899",
+                "telefone": "1399999999",
+                "planos": null,
+                "pagamentos": null,
+                "id": 1
+            }
+        ]
+    },
+    "currentPage": 1,
+    "pageSize": 10,
+    "totalCount": 2
+}
+```
+
 ### Caso de teste: 2
 
 - Resumo: Detalhar Cliente
