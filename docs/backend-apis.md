@@ -509,6 +509,15 @@ Exibir mensagem "Operação bem sucedida" com código 200.
 - Observações: Código 200 para cliente excluído, 404 para cliente não encontrado, 401 se não autenticado.
 - Comentários: Teste deve garantir que o cliente seja excluído corretamente e que o sistema trate corretamente o caso de cliente inexistente.
 
+```json
+    Received response (200): 
+
+{
+    "status": true,
+    "message": "Membro deletado com sucesso"
+}
+```
+
 ### Caso de teste: 6
 
 - Resumo: Criar Cliente com Dados Inválidos
@@ -530,6 +539,29 @@ Código 400 para erro de validação dos dados.
 - Código 401 se o usuário não estiver autenticado.
 - Observações: Código 400 para erro de validação, 401 se não autenticado.
 - Comentários: Teste deve garantir que o sistema retorne erros apropriados para dados inválidos.
+
+```json
+    Received response (422): 
+
+{
+    "status": false,
+    "message": "Falha na validação dos dados",
+    "errors": {
+        "cpf": [
+            "O campo CPF deve ter exatamente 11 dígitos."
+        ],
+        "phone": [
+            "O campo telefone deve ter exatamente 11 dígitos."
+        ],
+        "date_of_birth": [
+            "O campo data de nascimento deve ser uma data válida."
+        ],
+        "gender": [
+            "O campo gênero deve ser um dos seguintes valores: male, female, other."
+        ]
+    }
+}
+```
 
 # Painel Gerencial
 
