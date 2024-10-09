@@ -1,6 +1,6 @@
 # Front-end Web
 
-[Inclua uma breve descrição do projeto e seus objetivos.]
+Este projeto consiste em uma aplicação de gestão de academia chamada DEV Fitness, desenvolvida utilizando HTML, CSS e JavaScript no front-end para criar uma interface dinâmica e responsiva. O objetivo principal é oferecer uma experiência intuitiva para a administração de membros, pagamentos e planos de treino. A aplicação conta com funcionalidades interativas, como formulários de cadastro, tabelas de exibição de dados 
 
 ## Tecnologias Utilizadas
 [Lista das tecnologias principais que serão utilizadas no projeto.]
