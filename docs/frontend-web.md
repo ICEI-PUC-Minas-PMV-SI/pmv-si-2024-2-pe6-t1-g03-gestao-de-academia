@@ -3,11 +3,22 @@
 Este projeto consiste em uma aplicação de gestão de academia chamada DEV Fitness, desenvolvida utilizando HTML, CSS e JavaScript no front-end para criar uma interface dinâmica e responsiva. O objetivo principal é oferecer uma experiência intuitiva para a administração de membros, pagamentos e planos de treino. A aplicação conta com funcionalidades interativas, como formulários de cadastro, tabelas de exibição de dados.
 
 ## Tecnologias Utilizadas
-[Lista das tecnologias principais que serão utilizadas no projeto.]
+
+- HTML: Linguagem de marcação utilizada no front-end para estruturar as páginas da aplicação, facilitando a organização dos elementos visuais.
+- CSS: Linguagem de estilo utilizada para definir o layout, cores, espaçamentos e outras características visuais da interface da aplicação, tornando-a atraente e responsiva.
+- JavaScript: Linguagem de programação utilizada no front-end para adicionar interatividade e manipulação dinâmica dos dados exibidos na interface, como a busca de dados via API, validação de formulários e atualização de conteúdo sem recarregar a página.
+- PHP/Laravel: Linguagem de programação utilizada no back-end para construção da lógica da aplicação.
+- MySQL: Banco de dados relacional utilizado para armazenar informações sobre membros, pagamentos e planos.
+- JWT (JSON Web Token): Utilizado para autenticação segura entre o cliente e a API.
+- Apache: Servidor web para hospedar a aplicação.
 
 ## Arquitetura
 
-[Descrição da arquitetura das aplicação web, incluindo os componentes e suas interações.]
+Utilizado principalmente o padrão MVC.
+
+- Model: Responsável pela interação com o banco de dados, representando as entidades do sistema (membros, pagamentos, planos) e realizando operações como consulta, inserção e atualização de dados.
+- View: Representa a camada de interface com o usuário, onde são exibidos os dados e elementos visuais, permitindo que o usuário interaja com o sistema. Essa camada é construída com HTML, CSS e JavaScript.
+- Controller: Atua como intermediário entre a visão e o modelo, recebendo as requisições do usuário, processando as regras de negócio e retornando as respostas adequadas.
 
 ## Modelagem da Aplicação
 [Descreva a modelagem da aplicação, incluindo a estrutura de dados, diagramas de classes ou entidades, e outras representações visuais relevantes.]
@@ -29,7 +40,11 @@ Este projeto consiste em uma aplicação de gestão de academia chamada DEV Fitn
 
 ## Fluxo de Dados
 
-[Diagrama ou descrição do fluxo de dados na aplicação.]
+- Requisições HTTP: Os usuários interagem com o sistema por meio de requisições HTTP (GET, POST, PUT, DELETE), enviadas do front-end (navegador) para a API.
+Controladores: As requisições são capturadas pelos controladores no Laravel, que processam a lógica da aplicação e validam os dados.
+- Modelos: Os controladores acionam os modelos, que interagem com o banco de dados para consultar, inserir, atualizar ou deletar informações.
+- Respostas JSON: Os dados processados são retornados como respostas JSON, enviadas de volta para o front-end, onde o JavaScript é responsável por atualizar dinamicamente a interface.
+- Persistência de Dados: As informações como pagamentos, planos e membros são armazenadas de forma persistente no banco de dados MySQL, garantindo que todas as operações realizadas no sistema sejam refletidas e mantidas.
 
 ## Requisitos Funcionais
 
