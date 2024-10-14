@@ -46,6 +46,15 @@ O layout foi pensado para ser simples e direto, facilitando o uso para diferente
 
 ![dev_front_full_page](https://github.com/user-attachments/assets/26717444-a94a-468d-93ab-7336678bc73a)
 
+## Sistema de Gerenciamento
+
+O acesso ao sistema é feito por meio da tela de login, apresentada abaixo.
+
+![login_sistema](https://github.com/user-attachments/assets/c3299b28-ca36-4e5c-b616-cb208feb201b)
+
+O Dashboard do sistema administrativo da DEV Fitness apresenta uma visão geral da academia, com informações resumidas em cartões coloridos que destacam o total de alunos matriculados e a quantidade de alunos em cada plano (Silver, Gold e Black). Abaixo, uma tabela detalhada lista os alunos com suas principais informações, como nome, email, CPF, telefone e data de nascimento, além de botões de ações para visualizar, editar ou excluir cada aluno. A interface é organizada e intuitiva, com navegação fácil pela sidebar à esquerda e paginação clara para gerenciar grandes volumes de dados. O design é funcional, oferecendo ao administrador uma visão completa e o controle total das operações da academia.
+
+![sistema_administrativo](https://github.com/user-attachments/assets/2281a9f9-5919-40e1-9c5c-ce4763dc5769)
 
 ### Wireframes
 [Inclua os wireframes das páginas principais da interface, mostrando a disposição dos elementos na página.]
