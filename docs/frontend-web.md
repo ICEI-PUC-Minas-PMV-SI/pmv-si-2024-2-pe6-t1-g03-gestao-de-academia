@@ -97,18 +97,39 @@ Controladores: As requisições são capturadas pelos controladores no Laravel, 
 - Respostas JSON: Os dados processados são retornados como respostas JSON, enviadas de volta para o front-end, onde o JavaScript é responsável por atualizar dinamicamente a interface.
 - Persistência de Dados: As informações como pagamentos, planos e membros são armazenadas de forma persistente no banco de dados MySQL, garantindo que todas as operações realizadas no sistema sejam refletidas e mantidas.
 
-## Requisitos Funcionais
+## Requisitos
 
-[Liste os principais requisitos funcionais da aplicação.]
+As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto. Para determinar a prioridade de requisitos, aplicar uma técnica de priorização de requisitos e detalhar como a técnica foi aplicada.
 
-## Requisitos Não Funcionais
+### Requisitos Funcionais
 
-[Liste os principais requisitos não funcionais da aplicação, como desempenho, segurança, escalabilidade, etc.]
+|ID    | Descrição do Requisito | Responsável |
+|------|------------------------|-------------|
+|RF-001| O sistema deve fazer a gestão das informações dos alunos | Rodrigo, Vinícius |
+|RF-002| O sistema deve fazer a gestão de pagamentos | Fernando, Leandro |
+|RF-003| O sistema deve permitir a atualização e o gerenciamento de planos de treinamento dos alunos | Laryssa, Douglas |
+|RF-004| O sistema deve prover relatórios de gestão | Cada desenvolvedor |
 
+### Requisitos não Funcionais
+
+|ID     | Descrição do Requisito | Prioridade |
+|-------|------------------------|------------|
+|RNF-001| O sistema deve ser responsivo, garantindo que a interface funcione adequadamente em dispositivos móveis e web | ALTA | 
+|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA |
+|RNF-003| O sistema deve ser escalável para suportar o crescimento da academia, incluindo mais alunos e novos serviços |  ALTA |
+|RNF-004| O sistema deve garantir a segurança e confidencialidade dos dados dos alunos |  BAIXA |
 
 ## Considerações de Segurança
 
-[Discuta as considerações de segurança relevantes para a aplicação distribuída, como autenticação, autorização, proteção contra ataques, etc.]
+### Autenticação
+
+A autenticação garante que apenas usuários e sistemas confiáveis possam acessar a aplicação. Em um ambiente distribuído, a autenticação deve ser robusta e escalável, garantindo que cada requisição seja proveniente de uma fonte autenticada.
+
+Na nossa aplicação, a autenticação é feita através de tokens de autenticação que são passados no cabeçalho da requisição (header) usando o método Bearer Token. Quando um usuário realiza login, um token é gerado e retornado. Esse token deve ser incluído em todas as requisições subsequentes, permitindo acesso aos recursos protegidos da API.
+
+### Proteção contra ataques
+
+Para garantir a segurança da aplicação contra ataques de injeção, como SQL e NoSQL, utilizamos consultas parametrizadas e mapeamento objeto-relacional (ORM). Essas práticas evitam que entradas maliciosas sejam executadas diretamente nos bancos de dados, protegendo o sistema contra a execução de comandos não autorizados e garantindo a integridade das informações. A validação rigorosa das entradas de dados e o uso de práticas seguras de codificação minimizam os riscos de injeção de código malicioso.
 
 ## Implantação
 
