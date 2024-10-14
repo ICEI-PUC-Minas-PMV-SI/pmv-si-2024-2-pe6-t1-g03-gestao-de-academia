@@ -45,14 +45,14 @@ A interface inclui várias interações do usuário, como:
 O layout foi pensado para ser simples e direto, facilitando o uso para diferentes perfis de usuários, desde jovens até o público adulto, que podem acessar as informações de forma rápida e sem complicações.
 
 ![dev_front_full_page](https://github.com/user-attachments/assets/26717444-a94a-468d-93ab-7336678bc73a)
-<small>Front page da Academia fictícia para compor o projeto</small>
+<span style="font-size: 9px;">Front page da Academia fictícia para compor o projeto</span>
 
 ## Sistema de Gerenciamento
 
 O acesso ao sistema é feito por meio da tela de login, apresentada abaixo.
 
 ![login_sistema](https://github.com/user-attachments/assets/c3299b28-ca36-4e5c-b616-cb208feb201b)
-<small>Tela de Login</small>
+<br><small>Tela de Login</small>
 
 O Dashboard do sistema administrativo da DEV Fitness apresenta uma visão geral da academia, com informações resumidas em cartões coloridos que destacam o total de alunos matriculados e a quantidade de alunos em cada plano (Silver, Gold e Black). Abaixo, uma tabela detalhada lista os alunos com suas principais informações, como nome, email, CPF, telefone e data de nascimento, além de botões de ações para visualizar, editar ou excluir cada aluno. A interface é organizada e intuitiva, com navegação fácil pela sidebar à esquerda e paginação clara para gerenciar grandes volumes de dados. O design é funcional, oferecendo ao administrador uma visão completa e o controle total das operações da academia.
 
@@ -78,15 +78,13 @@ Em relação a responsividade do módulo Web do sistema administrativo, o grupo 
 Bootstrap é um framework CSS responsivo que adapta automaticamente o layout para diferentes tamanhos de tela. Ele divide a interface em colunas que são reorganizadas ou ajustadas conforme o tamanho da tela. Botões e tabelas têm classes do Bootstrap que adaptam seu tamanho e espaçamento, melhorando a experiência do usuário em dispositivos menores.
 
 ![ver_membro_cell_phone](https://github.com/user-attachments/assets/8430f74b-fc5e-420a-91a1-18d8d8620b0a)
-<small>Ver um aluno específico no Celular</small>
+<br><small>Ver um aluno específico no Celular</small>
 
 - 3 Menu de Navegação
 
 O menu de navegação utiliza o Bootstrap para colapsar em dispositivos móveis (ou seja, transforma-se em um menu hamburguer): 
 `navbar-expand-lg`: O menu será exibido expandido em telas grandes, mas colapsado (com o botão de menu) em telas menores.
 `d-none d-md-block`: Utilizado para esconder itens da barra de navegação em dispositivos móveis e exibi-los apenas em telas de tamanho médio e grande.
-
-
 
 ### Interações do Usuário
 [Descreva as interações do usuário na interface, como animações, transições entre páginas e outras interações.]
