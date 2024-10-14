@@ -24,7 +24,28 @@ Utilizado principalmente o padrão MVC.
 [Descreva a modelagem da aplicação, incluindo a estrutura de dados, diagramas de classes ou entidades, e outras representações visuais relevantes.]
 
 ## Projeto da Interface Web
-[Descreva o projeto da interface Web da aplicação, incluindo o design visual, layout das páginas, interações do usuário e outros aspectos relevantes.]
+
+### Interações do Usuário - Front Page da Academia
+
+N cabeçalho da aplicação apresentamos um menu de navegação fixo e responsivo. Ele inclui links principais para as seções "Home", "Sobre", "Planos", "Professores", "Contato" e um link para o sistema administrativo (deve ser retirado, é apenas para teste). O logo da academia, "DEV Fitness", é destacado no lado esquerdo, e o menu se adapta perfeitamente a diferentes tamanhos de tela com um botão de alternância (toggle) para dispositivos móveis.
+
+A interface inclui várias interações do usuário, como:
+
+- Navegação Responsiva: O menu se adapta perfeitamente a dispositivos móveis e permite fácil acesso às seções principais.
+- Botões de Ação: Botões visíveis e bem posicionados são utilizados para direcionar o usuário a explorar planos e conhecer mais sobre a academia.
+- Formulários: O formulário de contato facilita a comunicação entre os usuários e a equipe da academia, garantindo uma experiência de suporte ágil.
+- Carrossel de Depoimentos: O carrossel permite aos usuários visualizar depoimentos de outros alunos, o que pode influenciar positivamente na decisão de se matricular na academia.
+
+### Outros Aspectos Relevantes
+
+- Preloader: Um carregador animado é exibido durante o carregamento da página, melhorando a percepção de velocidade e a experiência do usuário.
+- Design Responsivo: Todos os elementos da página foram projetados com uma abordagem mobile-first, garantindo uma navegação fluida em dispositivos móveis.
+- Ícones e Imagens: Ícones FontAwesome e imagens de alta qualidade são usados em todo o site para reforçar o conteúdo visualmente e melhorar a comunicação da marca.
+
+O layout foi pensado para ser simples e direto, facilitando o uso para diferentes perfis de usuários, desde jovens até o público adulto, que podem acessar as informações de forma rápida e sem complicações.
+
+![dev_front_full_page](https://github.com/user-attachments/assets/26717444-a94a-468d-93ab-7336678bc73a)
+
 
 ### Wireframes
 [Inclua os wireframes das páginas principais da interface, mostrando a disposição dos elementos na página.]
