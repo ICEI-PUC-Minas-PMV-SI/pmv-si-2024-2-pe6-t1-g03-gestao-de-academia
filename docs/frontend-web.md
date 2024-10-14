@@ -45,19 +45,19 @@ A interface inclui várias interações do usuário, como:
 O layout foi pensado para ser simples e direto, facilitando o uso para diferentes perfis de usuários, desde jovens até o público adulto, que podem acessar as informações de forma rápida e sem complicações.
 
 ![dev_front_full_page](https://github.com/user-attachments/assets/26717444-a94a-468d-93ab-7336678bc73a)
-<span style="font-size: 9px;">Front page da Academia fictícia para compor o projeto</span>
+*Front page da Academia fictícia para compor o projeto*
 
 ## Sistema de Gerenciamento
 
 O acesso ao sistema é feito por meio da tela de login, apresentada abaixo.
 
 ![login_sistema](https://github.com/user-attachments/assets/c3299b28-ca36-4e5c-b616-cb208feb201b)
-<br><small>Tela de Login</small>
+<br>*Tela de Login*
 
 O Dashboard do sistema administrativo da DEV Fitness apresenta uma visão geral da academia, com informações resumidas em cartões coloridos que destacam o total de alunos matriculados e a quantidade de alunos em cada plano (Silver, Gold e Black). Abaixo, uma tabela detalhada lista os alunos com suas principais informações, como nome, email, CPF, telefone e data de nascimento, além de botões de ações para visualizar, editar ou excluir cada aluno. A interface é organizada e intuitiva, com navegação fácil pela sidebar à esquerda e paginação clara para gerenciar grandes volumes de dados. O design é funcional, oferecendo ao administrador uma visão completa e o controle total das operações da academia.
 
 ![sistema_administrativo](https://github.com/user-attachments/assets/2281a9f9-5919-40e1-9c5c-ce4763dc5769)
-<small>Dashboard principal</small>
+*Dashboard principal*
 
 ### Wireframes
 [Inclua os wireframes das páginas principais da interface, mostrando a disposição dos elementos na página.]
@@ -78,7 +78,7 @@ Em relação a responsividade do módulo Web do sistema administrativo, o grupo 
 Bootstrap é um framework CSS responsivo que adapta automaticamente o layout para diferentes tamanhos de tela. Ele divide a interface em colunas que são reorganizadas ou ajustadas conforme o tamanho da tela. Botões e tabelas têm classes do Bootstrap que adaptam seu tamanho e espaçamento, melhorando a experiência do usuário em dispositivos menores.
 
 ![ver_membro_cell_phone](https://github.com/user-attachments/assets/8430f74b-fc5e-420a-91a1-18d8d8620b0a)
-<br><small>Ver um aluno específico no Celular</small>
+<br>*Ver um aluno específico no Celular*
 
 - 3 Menu de Navegação
 
