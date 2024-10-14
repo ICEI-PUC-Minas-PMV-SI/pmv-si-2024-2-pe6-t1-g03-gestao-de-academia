@@ -63,7 +63,24 @@ O Dashboard do sistema administrativo da DEV Fitness apresenta uma visão geral 
 [Descreva o estilo visual da interface, incluindo paleta de cores, tipografia, ícones e outros elementos gráficos.]
 
 ### Layout Responsivo
-[Discuta como a interface será adaptada para diferentes tamanhos de tela e dispositivos.]
+
+Em relação a responsividade do módulo Web do sistema administrativo, o grupo utlizou os seguintes recursos:
+
+- 1. Meta Viewport Tag
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">: Isso garante que o layout seja exibido corretamente em diferentes dispositivos, como smartphones, tablets e desktops, ajustando a largura do conteúdo com base no tamanho da tela.
+
+- 2. Uso do Bootstrap
+
+Bootstrap é um framework CSS responsivo que adapta automaticamente o layout para diferentes tamanhos de tela. Ele divide a interface em colunas que são reorganizadas ou ajustadas conforme o tamanho da tela. Botões e tabelas têm classes do Bootstrap que adaptam seu tamanho e espaçamento, melhorando a experiência do usuário em dispositivos menores.
+
+- 3. Menu de Navegação
+
+O menu de navegação utiliza o Bootstrap para colapsar em dispositivos móveis (ou seja, transforma-se em um menu hamburguer): navbar-expand-lg: O menu será exibido expandido em telas grandes, mas colapsado (com o botão de menu) em telas menores.
+
+d-none d-md-block: Utilizado para esconder itens da barra de navegação em dispositivos móveis e exibi-los apenas em telas de tamanho médio e grande.
+
+
 
 ### Interações do Usuário
 [Descreva as interações do usuário na interface, como animações, transições entre páginas e outras interações.]
