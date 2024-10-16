@@ -44,9 +44,6 @@ A interface inclui várias interações do usuário, como:
 
 O layout foi pensado para ser simples e direto, facilitando o uso para diferentes perfis de usuários, desde jovens até o público adulto, que podem acessar as informações de forma rápida e sem complicações.
 
-![dev_front_full_page](https://github.com/user-attachments/assets/26717444-a94a-468d-93ab-7336678bc73a)
-*Front page da Academia fictícia para compor o projeto*
-
 ## Sistema de Gerenciamento
 
 O acesso ao sistema é feito por meio da tela de login, apresentada abaixo.
