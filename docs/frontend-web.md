@@ -137,13 +137,24 @@ Para garantir a segurança da aplicação contra ataques de injeção, como SQL 
 
 ## Implantação
 
-[Instruções para implantar a aplicação distribuída em um ambiente de produção.]
+### Requisitos de Hardware e Software
 
-1. Defina os requisitos de hardware e software necessários para implantar a aplicação em um ambiente de produção.
-2. Escolha uma plataforma de hospedagem adequada, como um provedor de nuvem ou um servidor dedicado.
-3. Configure o ambiente de implantação, incluindo a instalação de dependências e configuração de variáveis de ambiente.
-4. Faça o deploy da aplicação no ambiente escolhido, seguindo as instruções específicas da plataforma de hospedagem.
-5. Realize testes para garantir que a aplicação esteja funcionando corretamente no ambiente de produção.
+- Hardware: Servidor Linux com pelo menos 4GB de RAM e 2 CPUs para garantir desempenho adequado.
+- Software: Necessário ter Apache, PHP (versão compatível com Laravel), MySQL e ferramentas de gerenciamento de dependências como Composer para Laravel. Bootstrap é integrado no front-end.
+
+### Plataforma de Hospedagem
+
+- A aplicação será hospedada em um servidor Linux com Apache, permitindo flexibilidade para configuração e escalabilidade, o que é ideal para aplicações baseadas em Laravel.
+
+### Configuração do Ambiente de Implantação
+
+- Instalar as dependências do PHP, incluindo as extensões necessárias para o Laravel e o MySQL.
+- Configurar variáveis de ambiente no .env do Laravel para conectar ao banco de dados, definir chave de aplicativo (APP_KEY) e outros parâmetros específicos de produção.
+
+### Deploy da Aplicação
+
+- Fazer upload dos arquivos para o servidor via SSH ou outra ferramenta de transferência.
+- Rodar composer install para instalar dependências, php artisan migrate para configurar as tabelas do banco e php artisan config:cache para otimizar as configurações.
 
 ## Testes
 
