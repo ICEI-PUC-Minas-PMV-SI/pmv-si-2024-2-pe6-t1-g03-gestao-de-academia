@@ -57,10 +57,10 @@ O Dashboard do sistema administrativo da DEV Fitness apresenta uma visão geral 
 *Dashboard principal*
 
 ### Wireframes
-[Inclua os wireframes das páginas principais da interface, mostrando a disposição dos elementos na página.]
+No projeto, optamos por utilizar o template AdminLTE, que já fornece uma estrutura visual pronta e funcional para a interface do usuário. Isso nos permitiu focar no desenvolvimento e customização dos recursos específicos do sistema, aproveitando a disposição de elementos e o estilo visual consistentes oferecidos pelo template. Assim, a criação de wireframes adicionais não foi necessária, pois a interface do AdminLTE já atende aos requisitos de layout e design da aplicação.
 
 ### Design Visual
-[Descreva o estilo visual da interface, incluindo paleta de cores, tipografia, ícones e outros elementos gráficos.]
+O design visual da interface foi baseado no template AdminLTE, que já incorpora uma paleta de cores moderna, tipografia legível e ícones adequados para aplicações administrativas. Este template também inclui elementos gráficos e componentes visuais otimizados para uma experiência de usuário consistente e intuitiva. A escolha do AdminLTE permitiu que seguíssemos um estilo visual padronizado e profissional, sem necessidade de desenvolver um design visual do zero, mantendo a interface harmoniosa e de fácil navegação.
 
 ### Layout Responsivo
 
