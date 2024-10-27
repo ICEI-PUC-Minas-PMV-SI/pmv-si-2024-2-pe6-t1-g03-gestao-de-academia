@@ -158,14 +158,32 @@ Para garantir a segurança da aplicação contra ataques de injeção, como SQL 
 
 ## Testes
 
-[Descreva a estratégia de teste, incluindo os tipos de teste a serem realizados (unitários, integração, carga, etc.) e as ferramentas a serem utilizadas.]
+### Teste de Login com Credenciais Inválidas
 
-1. Crie casos de teste para cobrir todos os requisitos funcionais e não funcionais da aplicação.
-2. Implemente testes unitários para testar unidades individuais de código, como funções e classes.
-3. Realize testes de integração para verificar a interação correta entre os componentes da aplicação.
-4. Execute testes de carga para avaliar o desempenho da aplicação sob carga significativa.
-5. Utilize ferramentas de teste adequadas, como frameworks de teste e ferramentas de automação de teste, para agilizar o processo de teste.
+- Objetivo: Garantir que o sistema retorne uma mensagem de erro apropriada quando as credenciais de login forem inválidas.
+- Tipo de Teste: Teste de Integração
+- Pré-condição: O banco de dados possui usuários cadastrados.
+
+#### Procedimento:
+
+- Enviar uma solicitação de login com e-mail ou senha incorretos.
+- Verificar a resposta para a mensagem de erro específica ("Login ou senha inválidos").
+- Resultado Esperado: O sistema deve impedir o acesso e retornar a mensagem de erro “Login ou senha inválidos.”
+
+### Teste de Cadastro de Usuário com CPF Duplicado
+
+- Objetivo: Garantir que não seja permitido o cadastro de um usuário com um CPF já registrado.
+- Tipo de Teste: Teste Unitário e de Integração
+- Pré-condição: O banco de dados possui um usuário com o CPF já cadastrado.
+
+#### Procedimento:
+
+- Tentar cadastrar um novo usuário utilizando um CPF já existente no sistema.
+- Verificar a resposta para uma mensagem de erro específica informando sobre o CPF duplicado.
+- Resultado Esperado: O sistema deve bloquear o cadastro e retornar uma mensagem de erro indicando CPF duplicado.
 
 # Referências
 
-Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho.
+- COULOURIS, George F. et al. Sistemas distribuídos: conceitos e projeto. 5. ed. Porto Alegre: Bookman, 2013.
+- GOUGH, James; BRYANT, Daniel; AUBURN, Matthew. Mastering API Architecture. O'Reilly Media, Inc.. 2021.
+- LAURET, Arnaud. The Design of Web APIs. Manning Publications. 2019.
