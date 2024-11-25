@@ -1,6 +1,6 @@
 # Front-end Móvel
 
-[Inclua uma breve descrição do projeto e seus objetivos.]
+Este projeto consiste em uma aplicação de gestão de academia chamada DEV Fitness, desenvolvida utilizando React Native no front-end mobile para criar uma interface intuitiva e responsiva. O objetivo principal é oferecer uma experiência prática para a administração de membros, pagamentos e planos de treino diretamente em dispositivos móveis. A aplicação conta com funcionalidades interativas, como formulários de cadastro, listas dinâmicas de dados e navegação fluida, garantindo acessibilidade e facilidade de uso para os administradores e usuários.
 
 ## Tecnologias Utilizadas
 [Lista das tecnologias principais que serão utilizadas no projeto.]
