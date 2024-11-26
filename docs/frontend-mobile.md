@@ -7,7 +7,11 @@ Este projeto consiste em uma aplicação de gestão de academia chamada DEV Fitn
 
 ## Arquitetura
 
-[Descrição da arquitetura das aplicação móvel, incluindo os componentes e suas interações.]
+Utilizado principalmente o padrão MVC.
+
+- Model: Responsável pela interação com o banco de dados, representando as entidades do sistema (membros, pagamentos, planos) e realizando operações como consulta, inserção e atualização de dados.
+- View: Representa a camada de interface com o usuário, onde são exibidos os dados e elementos visuais, permitindo que o usuário interaja com o sistema. Essa camada é construída com HTML, CSS e JavaScript.
+- Controller: Atua como intermediário entre a visão e o modelo, recebendo as requisições do usuário, processando as regras de negócio e retornando as respostas adequadas.
 
 ## Modelagem da Aplicação
 [Descreva a modelagem da aplicação, incluindo a estrutura de dados, diagramas de classes ou entidades, e outras representações visuais relevantes.]
