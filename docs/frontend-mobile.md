@@ -24,16 +24,25 @@ Entidades Principais:
 Acess_token: Registra as sessões dos usuários logados, garantindo o controle de acesso e permissões dos mesmos.
 
 ## Projeto da Interface
-[Descreva o projeto da interface móvel da aplicação, incluindo o design visual, layout das páginas, interações do usuário e outros aspectos relevantes.]
+O projeto da interface do aplicativo móvel foi desenvolvido para simplificar a gestão administrativa de academias, com foco no acompanhamento do fluxo de pagamentos e status dos planos dos alunos. A interface é clara e objetiva, proporcionando uma experiência funcional e prática para consultas e ajustes rápidos.
 
 ### Wireframes
-[Inclua os wireframes das páginas principais da interface, mostrando a disposição dos elementos na página.]
-
+O wireframe foi projetado para priorizar a organização lógica dos elementos e garantir uma experiência de uso intuitiva. As páginas principais são:
+  1. <b>Página Inicial:</b> Tela com informações introdutórias e botão de avançar;
+  2. <b>Tela de Login:</b> Entrada para o sistema por meio de credenciais (email e senha);
+  3. <b>Painel de Gestão:</b> Mostra estatísticas importantes, como o total de alunos matriculados e a quantidade distribuída entre os planos Silver, Gold e Black.
+  4. <b>Detalhes do Aluno:</b> Apresenta informações completas do aluno, incluindo dados pessoais, status de pagamento e detalhes do plano.
+     
 ### Design Visual
-[Descreva o estilo visual da interface, incluindo paleta de cores, tipografia, ícones e outros elementos gráficos.]
+O design visual utiliza uma paleta de cores vibrante para melhorar a usabilidade e a clareza das informações:
+  - <b>Azul:</b> Representa informações gerais e planos padrão.
+  - <b>Verde:</b> Indica ações positivas, como confirmações ou atualizações bem-sucedidas.
+  - <b>Vermelho:</b> Destaca alertas ou pendências, como pagamentos atrasados.
+
+A tipografia foi escolhida para garantir leitura fácil em dispositivos móveis, com um estilo moderno e limpo. Ícones visuais foram adicionados para facilitar a identificação das ações disponíveis.  
 
 ### Layout Responsivo
-[Discuta como a interface será adaptada para diferentes tamanhos de tela e dispositivos.]
+A interface foi projetada para ser responsiva, adaptando-se a diferentes tamanhos de tela e dispositivos móveis. Em telas menores, os elementos são reorganizados em pilhas verticais para manter a usabilidade e evitar sobrecarga visual. O design responsivo garante que o aplicativo funcione de forma eficiente em celulares de variados modelos e tamanhos.
 
 ### Interações do Usuário
 [Descreva as interações do usuário na interface, como animações, transições entre páginas e outras interações.]
