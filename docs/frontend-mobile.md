@@ -3,12 +3,22 @@
 Este projeto consiste em uma aplicação de gestão de academia chamada DEV Fitness, desenvolvida utilizando React Native no front-end mobile para criar uma interface intuitiva e responsiva. O objetivo principal é oferecer uma experiência prática para a administração de membros, pagamentos e planos de treino diretamente em dispositivos móveis. A aplicação conta com funcionalidades interativas, como formulários de cadastro, listas dinâmicas de dados e navegação fluida, garantindo acessibilidade e facilidade de uso para os administradores e usuários.
 
 ## Tecnologias Utilizadas
+
 Para o desenvolvimento da aplicação móvel DEV Fitness, utilizamos um conjunto de tecnologias modernas e eficientes que garantem a criação de uma interface responsiva e intuitiva para dispositivos móveis. As principais tecnologias incluem:
 
-React Native: Framework escolhido para o desenvolvimento do front-end móvel, permitindo o uso de JavaScript para criar aplicativos nativos para Android e iOS.
-Expo: Plataforma usada para facilitar o desenvolvimento e teste do aplicativo. Expo proporciona um ambiente de desenvolvimento que inclui diversas bibliotecas prontas e ferramentas úteis, como visualização em tempo real e acesso a APIs nativas sem necessidade de configuração adicional.
-Node.js: Ambiente de execução JavaScript usado para rodar o Expo CLI, além de gerenciar pacotes e dependências do projeto.
-JavaScript (ES6+): Linguagem de programação utilizada para escrever a lógica da aplicação, aproveitando os recursos modernos do JavaScript para melhorar a legibilidade e a manutenção do código.
+- **React Native**: Framework escolhido para o desenvolvimento do front-end móvel, permitindo o uso de JavaScript para criar aplicativos nativos para Android e iOS.
+- **Expo**: Plataforma usada para facilitar o desenvolvimento e teste do aplicativo. Expo proporciona um ambiente de desenvolvimento que inclui diversas bibliotecas prontas e ferramentas úteis, como visualização em tempo real e acesso a APIs nativas sem necessidade de configuração adicional.
+- **Node.js**: Ambiente de execução JavaScript usado para rodar o Expo CLI, além de gerenciar pacotes e dependências do projeto.
+- **JavaScript (ES6+)**: Linguagem de programação utilizada para escrever a lógica da aplicação, aproveitando os recursos modernos do JavaScript para melhorar a legibilidade e a manutenção do código.
+
+### Ferramentas de Desenvolvimento
+- **Android Studio**: Utilizado para configurar e executar o emulador Android, permitindo testar e ajustar a aplicação em um ambiente controlado.
+- **Xcode**: Utilizado para configuração e execução no simulador iOS, disponível apenas para macOS, proporcionando um ambiente de teste integrado para dispositivos Apple.
+- **Visual Studio Code**: Editor de código recomendado para desenvolvimento, oferecendo suporte robusto para JavaScript e React Native através de extensões.
+
+### Gestão de Pacotes e Dependências
+- **npm (Node Package Manager)**: Ferramenta utilizada para gerenciar as bibliotecas e módulos necessários para o projeto.
+
 
 ## Arquitetura
 
