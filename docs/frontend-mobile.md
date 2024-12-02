@@ -104,14 +104,59 @@ Controladores: As requisições são capturadas pelos controladores no Laravel, 
 5. Realize testes para garantir que a aplicação esteja funcionando corretamente no ambiente de produção.
 
 ## Testes
+Foram elaborados os seguintes casos de teste para a aplicação mobile:
 
-[Descreva a estratégia de teste, incluindo os tipos de teste a serem realizados (unitários, integração, carga, etc.) e as ferramentas a serem utilizadas.]
+*Caso de teste: 1*
+Resumo: Login na aplicação – Dados corretos
+Prioridade: Alta
+Pré-condição: Estar cadastrado no sistema, dados de login corretos
 
-1. Crie casos de teste para cobrir todos os requisitos funcionais e não funcionais da aplicação.
-2. Implemente testes unitários para testar unidades individuais de código, como funções e classes.
-3. Realize testes de integração para verificar a interação correta entre os componentes da aplicação.
-4. Execute testes de carga para avaliar o desempenho da aplicação sob carga significativa.
-5. Utilize ferramentas de teste adequadas, como frameworks de teste e ferramentas de automação de teste, para agilizar o processo de teste.
+Passos:
+
+    Acessar o app;
+    Preencher com os dados de email e senha;
+    Clique no botão “Acessar”.
+
+Resultado Esperado: Exibir modal com a mensagem “Login realizado com sucesso !” e redirecionamento para Página Inicial.
+
+*Caso de teste: 2*
+Resumo: Login de Paciente – Dados incorretos
+Prioridade: Alta
+Pré-condição: Usuário sem cadastro
+
+    Acessar o app ConsulMed;
+    Preencher com os dados de email e senha;
+    Clique no botão “Acessar”.
+
+Resultado Esperado: Exibir modal com a mensagem “ Dados incorretos. Tente novamente!”
+
+*Caso de teste: 3*
+Resumo: Visualizar clientes em cada plano.
+
+Prioridade: Alta
+Pré-condição: Cadastro no Sistema e Login
+
+Passos:
+
+    Acessar o app;
+    Login;
+    Página inicial rolar para lateral visualizando os totais;
+    Rolar para lateral visualizando os planos especificos cadastrados;
+
+Resultado Esperado: Exibir as informações corretas armazenadas no banco.
+
+*Caso de teste: 4*
+Resumo: Visualizar como cliente o status do pagamento.
+Prioridade: Alta
+Pré-condição: Cadastro no Sistema e Login
+
+Passos:
+
+    Acessar o app;
+    Login;
+    Página inicial acessar como usuario...
+
+Resultado Esperado: Exibir as informações corretas armazenadas no banco.
 
 # Referências
 
