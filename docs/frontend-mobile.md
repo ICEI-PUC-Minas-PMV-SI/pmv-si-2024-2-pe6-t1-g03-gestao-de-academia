@@ -118,6 +118,7 @@ Passos:
     Clique no botão “Acessar”.
 
 Resultado Esperado: Exibir modal com a mensagem “Login realizado com sucesso !” e redirecionamento para Página Inicial.
+![image](https://github.com/user-attachments/assets/3934c051-68da-47ec-832b-1c1342450cc6)
 
 *Caso de teste: 2*
 Resumo: Login de Paciente – Dados incorretos
@@ -129,7 +130,8 @@ Pré-condição: Usuário sem cadastro
     Clique no botão “Acessar”.
 
 Resultado Esperado: Exibir modal com a mensagem “ Email ou Senha invalidos”
-![image](https://github.com/user-attachments/assets/d24a104d-ce99-40c2-b5b9-e98d4478b62c)
+![image](https://github.com/user-attachments/assets/ddf926b4-8ac8-4bc0-97a6-1b077b67be11)
+
 
 
 *Caso de teste: 3*
@@ -146,6 +148,7 @@ Passos:
     Rolar para lateral visualizando os planos especificos cadastrados;
 
 Resultado Esperado: Exibir as informações corretas armazenadas no banco.
+![image](https://github.com/user-attachments/assets/ae951ee1-b59d-47f4-b129-9145c1fffd49)
 
 *Caso de teste: 4*
 Resumo: Visualizar como cliente o status do pagamento.
@@ -159,6 +162,26 @@ Passos:
     Página inicial acessar como usuario...
 
 Resultado Esperado: Exibir as informações corretas armazenadas no banco.
+![image](https://github.com/user-attachments/assets/da04dbc1-91bb-4257-8439-eae96a6c637c)
+
+*Caso de teste: 5*
+
+
+![image](https://github.com/user-attachments/assets/cbc83600-3b9f-4479-b356-1bbaee6d32da)
+
+---
+
+adição de pagamento
+![image](https://github.com/user-attachments/assets/79b3e331-f320-4262-9d32-5a18920076bf)
+
+
+---
+Deleção de pagamento:
+![image](https://github.com/user-attachments/assets/b1699e99-1bb0-4aee-a462-54b2ef7e21b3)
+![image](https://github.com/user-attachments/assets/cb8a2c6e-acd6-4f79-b16f-58dbc4974f88)
+![image](https://github.com/user-attachments/assets/23354803-6f2c-4ce4-8c38-3702b4eba008)
+
+
 
 # Referências
 
