@@ -128,7 +128,9 @@ Pré-condição: Usuário sem cadastro
     Preencher com os dados de email e senha;
     Clique no botão “Acessar”.
 
-Resultado Esperado: Exibir modal com a mensagem “ Dados incorretos. Tente novamente!”
+Resultado Esperado: Exibir modal com a mensagem “ Email ou Senha invalidos”
+![image](https://github.com/user-attachments/assets/d24a104d-ce99-40c2-b5b9-e98d4478b62c)
+
 
 *Caso de teste: 3*
 Resumo: Visualizar clientes em cada plano.
