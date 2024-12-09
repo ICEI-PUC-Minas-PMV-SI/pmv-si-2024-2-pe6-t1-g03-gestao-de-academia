@@ -172,14 +172,24 @@ Resultado Esperado: Exibir as informações corretas armazenadas no banco.
 ---
 
 adição de pagamento
-![image](https://github.com/user-attachments/assets/79b3e331-f320-4262-9d32-5a18920076bf)
+![image](https://github.com/user-attachments/assets/8989bbe8-d17d-4e89-a1c4-d29f5ae1f3c4)
+
+![image](https://github.com/user-attachments/assets/f068bcf8-7060-4ffd-a1b7-2cefc821615e)
+
+![image](https://github.com/user-attachments/assets/8e7f57b2-42af-4d09-b88b-ffab877cf3a1)
+
+
+
 
 
 ---
 Deleção de pagamento:
-![image](https://github.com/user-attachments/assets/b1699e99-1bb0-4aee-a462-54b2ef7e21b3)
-![image](https://github.com/user-attachments/assets/cb8a2c6e-acd6-4f79-b16f-58dbc4974f88)
-![image](https://github.com/user-attachments/assets/23354803-6f2c-4ce4-8c38-3702b4eba008)
+![image](https://github.com/user-attachments/assets/cb88c0b9-f71f-40a3-b3ca-2f5203cf75ae)
+
+![image](https://github.com/user-attachments/assets/75496aa5-3797-4a55-8d5c-a3ef509aaa29)
+
+![image](https://github.com/user-attachments/assets/00c59f49-7648-4d63-8893-dc7ec3d2744e)
+
 
 
 
