@@ -46,22 +46,23 @@ O wireframe foi projetado para priorizar a organização lógica dos elementos e
 
 1. **Página Inicial:** Tela com informações introdutórias e botão de avançar;
 2. **Tela de Login:** Entrada para o sistema por meio de credenciais (email e senha);
-3. **Painel de Gestão:** Mostra estatísticas importantes, como o total de alunos matriculados e a quantidade distribuída entre os planos Silver, Gold e Black.
+3. **Painel de Gestão:** Mostra estatísticas importantes, como o total de alunos matriculados e a quantidade distribuída entre os planos Silver, Gold e Black;
 4. **Detalhes do Aluno:** Apresenta informações completas do aluno, incluindo dados pessoais, status de pagamento e detalhes do plano.
 
-   <figure>
-     <img src="https://github.com/user-attachments/assets/88259a9e-1423-4f08-bb66-0b6ae48b06b3" alt="Wireframe Página Inicial" width="300">
-     <figcaption>Wireframe da Página Inicial, Tela de Login e Totais do Painel de Gestão</figcaption>
-   </figure>
-   <figure>
-     <img src="https://github.com/user-attachments/assets/c964ea55-3b3d-45fb-bfe0-b795c3fd087f" alt="Wireframe Tela de Login" width="300">
-     <figcaption>Planos dos Paineis de gestão</figcaption>
-   </figure>
-   <figure>
-     <img src="https://github.com/user-attachments/assets/d0beab49-14a1-42d9-aa91-da15500b2a01" alt="Wireframe Detalhes do Aluno" width="300">
-     <figcaption>Detalhes do Aluno</figcaption>
-   </figure>
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/88259a9e-1423-4f08-bb66-0b6ae48b06b3" alt="Wireframe Página Inicial" style="width:70%; height:auto;">
+  <p><i>Wireframe da Página Inicial, Tela de Login e Totais do Painel de Gestão</i></p>
+</div>
 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/c964ea55-3b3d-45fb-bfe0-b795c3fd087f" alt="Wireframe Tela de Login" style="width:70%; height:auto;">
+  <p><i>Planos dos Paineis de Gestão</i></p>
+</div>
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/d0beab49-14a1-42d9-aa91-da15500b2a01" alt="Wireframe Detalhes do Aluno" style="width:70%; height:auto;">
+  <p><i>Detalhes do Aluno</i></p>
+</div>
 
      
 ### Design Visual
@@ -133,12 +134,14 @@ Foram elaborados os seguintes casos de teste para a aplicação mobile:
 3. Clique no botão “Acessar”.  
 
 **Resultado Esperado:**  
-Exibir modal com a mensagem “Login realizado com sucesso !” e redirecionamento para Página Inicial.
+Exibir modal com a mensagem “Login realizado com sucesso!” e redirecionamento para Página Inicial.
 
-<figure>
-  <img src="https://github.com/user-attachments/assets/3934c051-68da-47ec-832b-1c1342450cc6" alt="Teste de Login bem-sucedido" width="300">
-  <figcaption>Teste de Login bem-sucedido</figcaption>
-</figure>
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/3934c051-68da-47ec-832b-1c1342450cc6" alt="Teste de Login bem-sucedido" style="width:70%; height:auto;">
+  <p><i>Teste de Login bem-sucedido</i></p>
+</div>
+
+---
 
 ### Caso de teste 2
 **Resumo:** Login de Paciente – Dados incorretos  
@@ -153,10 +156,12 @@ Exibir modal com a mensagem “Login realizado com sucesso !” e redirecionamen
 **Resultado Esperado:**  
 Exibir modal com a mensagem “Email ou Senha inválidos”.
 
-<figure>
-  <img src="https://github.com/user-attachments/assets/ddf926b4-8ac8-4bc0-97a6-1b077b67be11" alt="Teste de Login inválido" width="300">
-  <figcaption>Teste de Login inválido</figcaption>
-</figure>
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/ddf926b4-8ac8-4bc0-97a6-1b077b67be11" alt="Teste de Login inválido" style="width:70%; height:auto;">
+  <p><i>Teste de Login inválido</i></p>
+</div>
+
+---
 
 ### Caso de teste 3
 **Resumo:** Visualizar clientes em cada plano  
@@ -165,17 +170,19 @@ Exibir modal com a mensagem “Email ou Senha inválidos”.
 
 **Passos:**  
 1. Acessar o app;  
-2. Login;  
+2. Realizar login;  
 3. Página inicial rolar para lateral visualizando os totais;  
 4. Rolar para lateral visualizando os planos específicos cadastrados.  
 
 **Resultado Esperado:**  
 Exibir as informações corretas armazenadas no banco.
 
-<figure>
-  <img src="https://github.com/user-attachments/assets/ae951ee1-b59d-47f4-b129-9145c1fffd49" alt="Teste de Visualização de Clientes" width="300">
-  <figcaption>Teste de Visualização de Clientes</figcaption>
-</figure>
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/ae951ee1-b59d-47f4-b129-9145c1fffd49" alt="Teste de Visualização de Clientes" style="width:70%; height:auto;">
+  <p><i>Teste de Visualização de Clientes</i></p>
+</div>
+
+---
 
 ### Caso de teste 4
 **Resumo:** Visualizar como cliente o status do pagamento  
@@ -184,32 +191,38 @@ Exibir as informações corretas armazenadas no banco.
 
 **Passos:**  
 1. Acessar o app;  
-2. Login;  
-3. Página inicial acessar como usuário...  
+2. Realizar login;  
+3. Navegar para a Página inicial e acessar como usuário.  
 
 **Resultado Esperado:**  
 Exibir as informações corretas armazenadas no banco.
 
-<figure>
-  <img src="https://github.com/user-attachments/assets/da04dbc1-91bb-4257-8439-eae96a6c637c" alt="Teste de Status de Pagamento" width="300">
-  <figcaption>Teste de Status de Pagamento</figcaption>
-</figure>
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/da04dbc1-91bb-4257-8439-eae96a6c637c" alt="Teste de Status de Pagamento" style="width:70%; height:auto;">
+  <p><i>Teste de Status de Pagamento</i></p>
+</div>
+
+---
 
 ### Caso de teste 5
-**Resumo:** Adição de pagamento
+**Resumo:** Adição de pagamento  
 
-<figure>
-  <img src="https://github.com/user-attachments/assets/8989bbe8-d17d-4e89-a1c4-d29f5ae1f3c4" alt="Adição de Pagamento 1" width="300">
-  <figcaption>Adição de Pagamento 1</figcaption>
-</figure>
-<figure>
-  <img src="https://github.com/user-attachments/assets/f068bcf8-7060-4ffd-a1b7-2cefc821615e" alt="Adição de Pagamento 2" width="300">
-  <figcaption>Adição de Pagamento 2</figcaption>
-</figure>
-<figure>
-  <img src="https://github.com/user-attachments/assets/8e7f57b2-42af-4d09-b88b-ffab877cf3a1" alt="Adição de Pagamento 3" width="300">
-  <figcaption>Adição de Pagamento 3</figcaption>
-</figure>
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/8989bbe8-d17d-4e89-a1c4-d29f5ae1f3c4" alt="Adição de Pagamento 1" style="width:70%; height:auto;">
+  <p><i>Adição de Pagamento - Passo 1</i></p>
+</div>
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/f068bcf8-7060-4ffd-a1b7-2cefc821615e" alt="Adição de Pagamento 2" style="width:70%; height:auto;">
+  <p><i>Adição de Pagamento - Passo 2</i></p>
+</div>
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/8e7f57b2-42af-4d09-b88b-ffab877cf3a1" alt="Adição de Pagamento 3" style="width:70%; height:auto;">
+  <p><i>Adição de Pagamento - Passo 3</i></p>
+</div>
+
+---
 
 ### Caso de teste 6
 **Resumo:** Deleção de pagamento  
@@ -227,21 +240,20 @@ Exibir as informações corretas armazenadas no banco.
 **Resultado Esperado:**  
 O pagamento selecionado é removido da lista, e a tela é atualizada para refletir a exclusão.
 
-<figure>
-  <img src="https://github.com/user-attachments/assets/cb88c0b9-f71f-40a3-b3ca-2f5203cf75ae" alt="Deleção de Pagamento 1" width="300">
-  <figcaption>Passo 1: Seleção do pagamento a ser excluído</figcaption>
-</figure>
-<figure>
-  <img src="https://github.com/user-attachments/assets/75496aa5-3797-4a55-8d5c-a3ef509aaa29" alt="Deleção de Pagamento 2" width="300">
-  <figcaption>Passo 2: Modal de confirmação exibido</figcaption>
-</figure>
-<figure>
-  <img src="https://github.com/user-attachments/assets/00c59f49-7648-4d63-8893-dc7ec3d2744e" alt="Deleção de Pagamento 3" width="300">
-  <figcaption>Passo 3: Tela atualizada sem o pagamento excluído</figcaption>
-</figure>
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/cb88c0b9-f71f-40a3-b3ca-2f5203cf75ae" alt="Deleção de Pagamento 1" style="width:70%; height:auto;">
+  <p><i>Passo 1: Seleção do pagamento a ser excluído</i></p>
+</div>
 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/75496aa5-3797-4a55-8d5c-a3ef509aaa29" alt="Deleção de Pagamento 2" style="width:70%; height:auto;">
+  <p><i>Passo 2: Modal de confirmação exibido</i></p>
+</div>
 
-
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/00c59f49-7648-4d63-8893-dc7ec3d2744e" alt="Deleção de Pagamento 3" style="width:70%; height:auto;">
+  <p><i>Passo 3: Tela atualizada sem o pagamento excluído</i></p>
+</div>
 
 
 # Referências
