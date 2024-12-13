@@ -207,21 +207,36 @@ Exibir as informações corretas armazenadas no banco.
 
 ### Caso de teste 5
 **Resumo:** Adição de pagamento  
+**Prioridade:** Alta  
+**Pré-condição:** Cadastro no Sistema e Login  
+
+**Passos:**  
+1. Acessar o app;  
+2. Realizar login;  
+3. Navegar até a lista de pagamentos;  
+4. Apertar no botão de incluir pagamentos;  
+5. Preencher os campos de data, status e método de pagamento;  
+6. Confirmar a inclusão;  
+7. Visualizar a modificação na lista de pagamentos.  
+
+**Resultado Esperado:**  
+O novo pagamento é adicionado à lista e exibido corretamente.
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/8989bbe8-d17d-4e89-a1c4-d29f5ae1f3c4" alt="Adição de Pagamento 1" style="height:350px; width:auto;">
-  <p><i>Adição de Pagamento - Passo 1</i></p>
+  <img src="https://github.com/user-attachments/assets/8989bbe8-d17d-4e89-a1c4-d29f5ae1f3c4" alt="Adição de Pagamento 1" style="height:250px; width:auto;">
+  <p><i>Passo 1: Acesso ao botão de incluir pagamentos</i></p>
 </div>
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/f068bcf8-7060-4ffd-a1b7-2cefc821615e" alt="Adição de Pagamento 2" style="height:350px; width:auto;">
-  <p><i>Adição de Pagamento - Passo 2</i></p>
+  <img src="https://github.com/user-attachments/assets/f068bcf8-7060-4ffd-a1b7-2cefc821615e" alt="Adição de Pagamento 2" style="height:250px; width:auto;">
+  <p><i>Passo 2: Preenchimento dos campos de data, status e método de pagamento</i></p>
 </div>
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/8e7f57b2-42af-4d09-b88b-ffab877cf3a1" alt="Adição de Pagamento 3" style="height:350px; width:auto;">
-  <p><i>Adição de Pagamento - Passo 3</i></p>
+  <img src="https://github.com/user-attachments/assets/8e7f57b2-42af-4d09-b88b-ffab877cf3a1" alt="Adição de Pagamento 3" style="height:250px; width:auto;">
+  <p><i>Passo 3: Visualização da modificação na lista de pagamentos</i></p>
 </div>
+
 
 ---
 
