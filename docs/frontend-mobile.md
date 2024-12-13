@@ -43,10 +43,16 @@ O projeto da interface do aplicativo móvel foi desenvolvido para simplificar a 
 
 ### Wireframes
 O wireframe foi projetado para priorizar a organização lógica dos elementos e garantir uma experiência de uso intuitiva. As páginas principais são:
+
+
   1. <b>Página Inicial:</b> Tela com informações introdutórias e botão de avançar;
   2. <b>Tela de Login:</b> Entrada para o sistema por meio de credenciais (email e senha);
   3. <b>Painel de Gestão:</b> Mostra estatísticas importantes, como o total de alunos matriculados e a quantidade distribuída entre os planos Silver, Gold e Black.
   4. <b>Detalhes do Aluno:</b> Apresenta informações completas do aluno, incluindo dados pessoais, status de pagamento e detalhes do plano.
+     ![image](https://github.com/user-attachments/assets/88259a9e-1423-4f08-bb66-0b6ae48b06b3)
+     ![image](https://github.com/user-attachments/assets/c964ea55-3b3d-45fb-bfe0-b795c3fd087f)
+     ![image](https://github.com/user-attachments/assets/d0beab49-14a1-42d9-aa91-da15500b2a01)
+
      
 ### Design Visual
 O design visual utiliza uma paleta de cores vibrante para melhorar a usabilidade e a clareza das informações:
